@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ode><userPreferences><userPreference><key>theme</key><value>neo</value></userPreference></userPreferences><odeResources><odeResource><key>odeVersionId</key><value>20260511102121MCIIGS</value></odeResource><odeResource><key>odeId</key><value>20260508183211TBUEYP</value></odeResource><odeResource><key>odeVersionName</key><value>0</value></odeResource><odeResource><key>isDownload</key><value>true</value></odeResource></odeResources><odeProperties><odeProperty><key>pp_title</key><value>Situación de aprendizaje "Food truck"</value></odeProperty><odeProperty><key>pp_lang</key><value>es</value></odeProperty><odeProperty><key>pp_author</key><value>Estela María Barba Párraga</value></odeProperty><odeProperty><key>license</key><value>creative commons: attribution - share alike 4.0</value></odeProperty><odeProperty><key>pp_description</key><value/></odeProperty><odeProperty><key>exportSource</key><value>true</value></odeProperty><odeProperty><key>pp_addExeLink</key><value>true</value></odeProperty><odeProperty><key>pp_exportElp</key><value>false</value></odeProperty><odeProperty><key>pp_addPagination</key><value>false</value></odeProperty><odeProperty><key>pp_addSearchBox</key><value>false</value></odeProperty><odeProperty><key>pp_addAccessibilityToolbar</key><value>false</value></odeProperty><odeProperty><key>pp_extraHeadContent</key><value/></odeProperty><odeProperty><key>footer</key><value/></odeProperty></odeProperties><odeNavStructures><odeNavStructure><odePageId>20260511102121YLXMBC</odePageId><odeParentPageId/><pageName>INICIO</pageName><odeNavStructureOrder>1</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121YLXMBC</odePageId><odeBlockId>20260511102121GJVOKY</odeBlockId><blockName>APRENDIENDO FRACCIONES DE FORMA DIVERTIDA</blockName><iconName>icon_collaborative</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121YLXMBC</odePageId><odeBlockId>20260511102121GJVOKY</odeBlockId><odeIdeviceId>20260508204330861O22</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        /* CSS Integrado para máxima compatibilidad con Google Sites y eXeLearning */
+        :root {
+            --primary-bg: #f8fafc;
+            --text-main: #334155;
+            --text-light: #64748b;
+            --orange-light: #ffedd5;
+            --orange-main: #ea580c;
+            --amber-main: #f59e0b;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+        }
+
+        /* Contenedor Principal */
+        .sda-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            border: 1px solid #f1f5f9;
+        }
+
+        /* Cabecera */
+        .sda-header {
+            background: linear-gradient(135deg, #f59e0b, #f97316, #ef4444);
+            color: white;
+            padding: 40px 30px;
+            position: relative;
+        }
+
+        .sda-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            backdrop-filter: blur(4px);
+        }
+
+        .sda-header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .sda-header h2 {
+            font-size: 1.8rem;
+            color: #ffedd5;
+            font-weight: 600;
+        }
+
+        /* Secciones */
+        .sda-content {
+            padding: 40px 30px;
+        }
+
+        .sda-section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.5rem;
+            color: #1e293b;
+            margin-bottom: 24px;
+        }
+
+        .section-icon {
+            background: var(--orange-light);
+            color: var(--orange-main);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            font-size: 1.2rem;
+        }
+
+        /* Grid de Identificación */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        @media (min-width: 600px) {
+            .info-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .info-grid .col-span-2 {
+                grid-column: span 2;
+            }
+        }
+
+        .info-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 20px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .info-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+        }
+
+        .info-card-emoji {
+            font-size: 2rem;
+        }
+
+        .info-label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .info-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        .info-value small {
+            font-size: 0.85rem;
+            color: #64748b;
+            font-weight: 400;
+        }
+
+        /* Cajas de texto */
+        .text-box {
+            background: linear-gradient(to right, #fff7ed, #fffbeb);
+            border: 1px solid #ffedd5;
+            padding: 24px 30px;
+            border-radius: 16px;
+            font-size: 1.1rem;
+            color: #334155;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+            position: relative;
+        }
+
+        .text-box p {
+            margin: 0;
+            text-align: justify;
+        }
+
+        /* Justificación */
+        .justification-content {
+            color: #475569;
+            text-align: justify;
+        }
+
+        .justification-content p {
+            margin-bottom: 20px;
+        }
+
+        .drop-cap::first-letter {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--orange-main);
+            float: left;
+            margin-right: 12px;
+            line-height: 1;
+        }
+
+        .highlight-box {
+            border-left: 4px solid var(--amber-main);
+            background: #f8fafc;
+            padding: 16px 20px;
+            margin: 24px 0;
+            border-radius: 0 12px 12px 0;
+            font-style: italic;
+        }
+
+        .conclusion-box {
+            background: #1e293b;
+            color: #f1f5f9;
+            padding: 24px 30px;
+            border-radius: 16px;
+            font-weight: 500;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            margin-top: 30px;
+        }
+
+        .text-emerald { color: #10b981; font-weight: 600; }
+        .text-blue { color: #3b82f6; font-weight: 600; }
+        .text-orange { color: #ea580c; font-weight: 600; }
+    &lt;/style&gt;
+&lt;div class="sda-container"&gt;&lt;!-- Cabecera --&gt;&lt;header class="sda-header"&gt;
+&lt;div class="sda-badge"&gt;📍 Situación de Aprendizaje&lt;/div&gt;
+&lt;h1&gt;Cocinando números&lt;/h1&gt;
+&lt;h2&gt;"Food Truck"&lt;/h2&gt;
+&lt;/header&gt;&lt;main class="sda-content"&gt;&lt;!-- 1. Identificación --&gt;
+&lt;section class="sda-section"&gt;
+&lt;div class="section-title"&gt;
+&lt;div class="section-icon"&gt;🪪&lt;/div&gt;
+&lt;h2&gt;1. Identificación&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="info-grid"&gt;
+&lt;div class="info-card"&gt;
+&lt;div class="info-card-emoji"&gt;⭐&lt;/div&gt;
+&lt;div&gt;&lt;span class="info-label"&gt;Centro de interés&lt;/span&gt; &lt;span class="info-value"&gt;Fracciones&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="info-card"&gt;
+&lt;div class="info-card-emoji"&gt;🎓&lt;/div&gt;
+&lt;div&gt;&lt;span class="info-label"&gt;Nivel&lt;/span&gt; &lt;span class="info-value"&gt;3º de ESO &lt;small&gt;(ACS 1º ESO)&lt;/small&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="info-card"&gt;
+&lt;div class="info-card-emoji"&gt;📅&lt;/div&gt;
+&lt;div&gt;&lt;span class="info-label"&gt;Temporalización&lt;/span&gt; &lt;span class="info-value"&gt;8 sesiones&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="info-card"&gt;
+&lt;div class="info-card-emoji"&gt;➗&lt;/div&gt;
+&lt;div&gt;&lt;span class="info-label"&gt;Materia&lt;/span&gt; &lt;span class="info-value"&gt;Matemáticas&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="info-card col-span-2"&gt;
+&lt;div class="info-card-emoji"&gt;🗣️&lt;/div&gt;
+&lt;div&gt;&lt;span class="info-label"&gt;Idioma&lt;/span&gt; &lt;span class="info-value"&gt;Castellano&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- 2. Descripción --&gt;
+&lt;section class="sda-section"&gt;
+&lt;div class="section-title"&gt;
+&lt;div class="section-icon"&gt;📝&lt;/div&gt;
+&lt;h2&gt;2. Descripción&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="text-box"&gt;
+&lt;p&gt;El alumnado se convierte en un emprendedor que debe convencer a un comité de inversores para financiar su Food Truck. Para ello, creará una presentación profesional en &lt;span class="text-blue"&gt;Canva&lt;/span&gt; que debe incluir: el nombre y logo de la marca, un menú diseñado con porciones exactas &lt;span class="text-orange"&gt;(fracciones)&lt;/span&gt;, un cálculo de costes para evitar el desperdicio &lt;span class="text-emerald"&gt;(Zero Waste)&lt;/span&gt; y una reflexión final sobre su impacto social. El aprendizaje se centra en la aplicación práctica de las fracciones para resolver problemas de la vida real.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- 3. Justificación --&gt;
+&lt;section class="sda-section"&gt;
+&lt;div class="section-title"&gt;
+&lt;div class="section-icon"&gt;🎯&lt;/div&gt;
+&lt;h2&gt;3. Justificación&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="justification-content"&gt;
+&lt;p class="drop-cap"&gt;Al escuchar la palabra &lt;strong&gt;"Fracciones"&lt;/strong&gt;, ¿cuál es la primera imagen que le viene a la cabeza a un estudiante? Probablemente, la respuesta de la mayoría sea un círculo dividido en porciones sobre un papel, seguida muy de cerca por la palabra "complicado" o "abstracto".&lt;/p&gt;
+&lt;p&gt;Las fracciones son, sin lugar a dudas, una de las herramientas de precisión más importantes no solo del conocimiento matemático, sino de la vida cotidiana y profesional por su capacidad para representar partes de un todo con exactitud. Por ello, su estudio y sus operaciones se abordan a lo largo de toda la etapa educativa, comenzando de una forma intuitiva en la Educación Primaria y aportando cada vez más rigor en la Educación Secundaria Obligatoria.&lt;/p&gt;
+&lt;div class="highlight-box"&gt;
+&lt;p style="margin: 0;"&gt;Sin embargo, para muchos alumnos de secundaria, el estudio de las fracciones suele resultar una tarea árida y desconectada de la realidad. Al presentarse a menudo como un conocimiento puramente simbólico en la pizarra, el estudiante no le encuentra utilidad alguna, lo que genera una barrera de desmotivación.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Si a esto sumamos que en 3º de ESO el nivel de abstracción aumenta, aquellos alumnos cuyas bases no son sólidas pueden sentirse rápidamente sobrepasados y desconectados del ritmo del aula.&lt;/p&gt;
+&lt;div class="conclusion-box"&gt;
+&lt;p style="margin: 0; text-align: justify;"&gt;Teniendo en cuenta todo lo anterior, en esta secuencia didáctica se acomete el estudio de las fracciones y sus operaciones de una forma eminentemente práctica y profesional. Para ello, se sitúa al alumno en un contexto de emprendimiento real: la gestión de su propio Food Truck. A través de este proyecto, el estudiante descubrirá que las fracciones no son solo números en un libro, sino el lenguaje que le permite diseñar un menú equilibrado, calcular sus beneficios y liderar un negocio bajo el principio de &lt;em class="text-emerald"&gt;"Zero Waste" (Desperdicio Cero)&lt;/em&gt;. Utilizando Canva como herramienta de expresión profesional, el alumno transformará el aprendizaje en un producto visual y tangible, encontrando por fin el sentido práctico de las matemáticas en su realidad más próxima de una forma amena, motivadora y acorde a su edad.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/main&gt;&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260508204330861O22","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        /* CSS Integrado para máxima compatibilidad con Google Sites y eXeLearning */\n        :root {\n            --primary-bg: #f8fafc;\n            --text-main: #334155;\n            --text-light: #64748b;\n            --orange-light: #ffedd5;\n            --orange-main: #ea580c;\n            --amber-main: #f59e0b;\n        }\n\n        body {\n            font-family: 'Inter', sans-serif;\n            background-color: var(--primary-bg);\n            color: var(--text-main);\n            line-height: 1.6;\n            margin: 0;\n            padding: 20px;\n            -webkit-font-smoothing: antialiased;\n        }\n\n        h1, h2, h3 {\n            font-family: 'Poppins', sans-serif;\n            margin: 0;\n        }\n\n        /* Contenedor Principal */\n        .sda-container {\n            max-width: 900px;\n            margin: 0 auto;\n            background: #ffffff;\n            border-radius: 24px;\n            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);\n            overflow: hidden;\n            border: 1px solid #f1f5f9;\n        }\n\n        /* Cabecera */\n        .sda-header {\n            background: linear-gradient(135deg, #f59e0b, #f97316, #ef4444);\n            color: white;\n            padding: 40px 30px;\n            position: relative;\n        }\n\n        .sda-badge {\n            display: inline-block;\n            background: rgba(255, 255, 255, 0.2);\n            border: 1px solid rgba(255, 255, 255, 0.3);\n            padding: 6px 16px;\n            border-radius: 20px;\n            font-size: 0.85rem;\n            font-weight: 600;\n            text-transform: uppercase;\n            letter-spacing: 1px;\n            margin-bottom: 16px;\n            backdrop-filter: blur(4px);\n        }\n\n        .sda-header h1 {\n            font-size: 2.8rem;\n            font-weight: 800;\n            line-height: 1.1;\n            margin-bottom: 8px;\n            text-shadow: 0 2px 4px rgba(0,0,0,0.1);\n        }\n\n        .sda-header h2 {\n            font-size: 1.8rem;\n            color: #ffedd5;\n            font-weight: 600;\n        }\n\n        /* Secciones */\n        .sda-content {\n            padding: 40px 30px;\n        }\n\n        .sda-section {\n            margin-bottom: 40px;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            gap: 12px;\n            font-size: 1.5rem;\n            color: #1e293b;\n            margin-bottom: 24px;\n        }\n\n        .section-icon {\n            background: var(--orange-light);\n            color: var(--orange-main);\n            width: 40px;\n            height: 40px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 12px;\n            font-size: 1.2rem;\n        }\n\n        /* Grid de Identificación */\n        .info-grid {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 16px;\n        }\n\n        @media (min-width: 600px) {\n            .info-grid {\n                grid-template-columns: 1fr 1fr;\n            }\n            .info-grid .col-span-2 {\n                grid-column: span 2;\n            }\n        }\n\n        .info-card {\n            background: #f8fafc;\n            border: 1px solid #e2e8f0;\n            padding: 20px;\n            border-radius: 16px;\n            display: flex;\n            align-items: center;\n            gap: 16px;\n            transition: transform 0.2s, box-shadow 0.2s;\n        }\n\n        .info-card:hover {\n            transform: translateY(-2px);\n            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);\n        }\n\n        .info-card-emoji {\n            font-size: 2rem;\n        }\n\n        .info-label {\n            display: block;\n            font-size: 0.75rem;\n            font-weight: 700;\n            color: #94a3b8;\n            text-transform: uppercase;\n            letter-spacing: 0.5px;\n            margin-bottom: 4px;\n        }\n\n        .info-value {\n            font-size: 1.1rem;\n            font-weight: 600;\n            color: #1e293b;\n        }\n\n        .info-value small {\n            font-size: 0.85rem;\n            color: #64748b;\n            font-weight: 400;\n        }\n\n        /* Cajas de texto */\n        .text-box {\n            background: linear-gradient(to right, #fff7ed, #fffbeb);\n            border: 1px solid #ffedd5;\n            padding: 24px 30px;\n            border-radius: 16px;\n            font-size: 1.1rem;\n            color: #334155;\n            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);\n            position: relative;\n        }\n\n        .text-box p {\n            margin: 0;\n            text-align: justify;\n        }\n\n        /* Justificación */\n        .justification-content {\n            color: #475569;\n            text-align: justify;\n        }\n\n        .justification-content p {\n            margin-bottom: 20px;\n        }\n\n        .drop-cap::first-letter {\n            font-size: 3.5rem;\n            font-weight: 800;\n            color: var(--orange-main);\n            float: left;\n            margin-right: 12px;\n            line-height: 1;\n        }\n\n        .highlight-box {\n            border-left: 4px solid var(--amber-main);\n            background: #f8fafc;\n            padding: 16px 20px;\n            margin: 24px 0;\n            border-radius: 0 12px 12px 0;\n            font-style: italic;\n        }\n\n        .conclusion-box {\n            background: #1e293b;\n            color: #f1f5f9;\n            padding: 24px 30px;\n            border-radius: 16px;\n            font-weight: 500;\n            box-shadow: 0 10px 25px rgba(0,0,0,0.15);\n            margin-top: 30px;\n        }\n\n        .text-emerald { color: #10b981; font-weight: 600; }\n        .text-blue { color: #3b82f6; font-weight: 600; }\n        .text-orange { color: #ea580c; font-weight: 600; }\n    &lt;/style&gt;\n&lt;div class=\"sda-container\"&gt;&lt;!-- Cabecera --&gt;&lt;header class=\"sda-header\"&gt;\n&lt;div class=\"sda-badge\"&gt;📍 Situación de Aprendizaje&lt;/div&gt;\n&lt;h1&gt;Cocinando números&lt;/h1&gt;\n&lt;h2&gt;\"Food Truck\"&lt;/h2&gt;\n&lt;/header&gt;&lt;main class=\"sda-content\"&gt;&lt;!-- 1. Identificación --&gt;\n&lt;section class=\"sda-section\"&gt;\n&lt;div class=\"section-title\"&gt;\n&lt;div class=\"section-icon\"&gt;🪪&lt;/div&gt;\n&lt;h2&gt;1. Identificación&lt;/h2&gt;\n&lt;/div&gt;\n&lt;div class=\"info-grid\"&gt;\n&lt;div class=\"info-card\"&gt;\n&lt;div class=\"info-card-emoji\"&gt;⭐&lt;/div&gt;\n&lt;div&gt;&lt;span class=\"info-label\"&gt;Centro de interés&lt;/span&gt; &lt;span class=\"info-value\"&gt;Fracciones&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"info-card\"&gt;\n&lt;div class=\"info-card-emoji\"&gt;🎓&lt;/div&gt;\n&lt;div&gt;&lt;span class=\"info-label\"&gt;Nivel&lt;/span&gt; &lt;span class=\"info-value\"&gt;3º de ESO &lt;small&gt;(ACS 1º ESO)&lt;/small&gt;&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"info-card\"&gt;\n&lt;div class=\"info-card-emoji\"&gt;📅&lt;/div&gt;\n&lt;div&gt;&lt;span class=\"info-label\"&gt;Temporalización&lt;/span&gt; &lt;span class=\"info-value\"&gt;8 sesiones&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"info-card\"&gt;\n&lt;div class=\"info-card-emoji\"&gt;➗&lt;/div&gt;\n&lt;div&gt;&lt;span class=\"info-label\"&gt;Materia&lt;/span&gt; &lt;span class=\"info-value\"&gt;Matemáticas&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"info-card col-span-2\"&gt;\n&lt;div class=\"info-card-emoji\"&gt;🗣️&lt;/div&gt;\n&lt;div&gt;&lt;span class=\"info-label\"&gt;Idioma&lt;/span&gt; &lt;span class=\"info-value\"&gt;Castellano&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/section&gt;\n&lt;!-- 2. Descripción --&gt;\n&lt;section class=\"sda-section\"&gt;\n&lt;div class=\"section-title\"&gt;\n&lt;div class=\"section-icon\"&gt;📝&lt;/div&gt;\n&lt;h2&gt;2. Descripción&lt;/h2&gt;\n&lt;/div&gt;\n&lt;div class=\"text-box\"&gt;\n&lt;p&gt;El alumnado se convierte en un emprendedor que debe convencer a un comité de inversores para financiar su Food Truck. Para ello, creará una presentación profesional en &lt;span class=\"text-blue\"&gt;Canva&lt;/span&gt; que debe incluir: el nombre y logo de la marca, un menú diseñado con porciones exactas &lt;span class=\"text-orange\"&gt;(fracciones)&lt;/span&gt;, un cálculo de costes para evitar el desperdicio &lt;span class=\"text-emerald\"&gt;(Zero Waste)&lt;/span&gt; y una reflexión final sobre su impacto social. El aprendizaje se centra en la aplicación práctica de las fracciones para resolver problemas de la vida real.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/section&gt;\n&lt;!-- 3. Justificación --&gt;\n&lt;section class=\"sda-section\"&gt;\n&lt;div class=\"section-title\"&gt;\n&lt;div class=\"section-icon\"&gt;🎯&lt;/div&gt;\n&lt;h2&gt;3. Justificación&lt;/h2&gt;\n&lt;/div&gt;\n&lt;div class=\"justification-content\"&gt;\n&lt;p class=\"drop-cap\"&gt;Al escuchar la palabra &lt;strong&gt;\"Fracciones\"&lt;/strong&gt;, ¿cuál es la primera imagen que le viene a la cabeza a un estudiante? Probablemente, la respuesta de la mayoría sea un círculo dividido en porciones sobre un papel, seguida muy de cerca por la palabra \"complicado\" o \"abstracto\".&lt;/p&gt;\n&lt;p&gt;Las fracciones son, sin lugar a dudas, una de las herramientas de precisión más importantes no solo del conocimiento matemático, sino de la vida cotidiana y profesional por su capacidad para representar partes de un todo con exactitud. Por ello, su estudio y sus operaciones se abordan a lo largo de toda la etapa educativa, comenzando de una forma intuitiva en la Educación Primaria y aportando cada vez más rigor en la Educación Secundaria Obligatoria.&lt;/p&gt;\n&lt;div class=\"highlight-box\"&gt;\n&lt;p style=\"margin: 0;\"&gt;Sin embargo, para muchos alumnos de secundaria, el estudio de las fracciones suele resultar una tarea árida y desconectada de la realidad. Al presentarse a menudo como un conocimiento puramente simbólico en la pizarra, el estudiante no le encuentra utilidad alguna, lo que genera una barrera de desmotivación.&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;Si a esto sumamos que en 3º de ESO el nivel de abstracción aumenta, aquellos alumnos cuyas bases no son sólidas pueden sentirse rápidamente sobrepasados y desconectados del ritmo del aula.&lt;/p&gt;\n&lt;div class=\"conclusion-box\"&gt;\n&lt;p style=\"margin: 0; text-align: justify;\"&gt;Teniendo en cuenta todo lo anterior, en esta secuencia didáctica se acomete el estudio de las fracciones y sus operaciones de una forma eminentemente práctica y profesional. Para ello, se sitúa al alumno en un contexto de emprendimiento real: la gestión de su propio Food Truck. A través de este proyecto, el estudiante descubrirá que las fracciones no son solo números en un libro, sino el lenguaje que le permite diseñar un menú equilibrado, calcular sus beneficios y liderar un negocio bajo el principio de &lt;em class=\"text-emerald\"&gt;\"Zero Waste\" (Desperdicio Cero)&lt;/em&gt;. Utilizando Canva como herramienta de expresión profesional, el alumno transformará el aprendizaje en un producto visual y tangible, encontrando por fin el sentido práctico de las matemáticas en su realidad más próxima de una forma amena, motivadora y acorde a su edad.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/section&gt;\n&lt;/main&gt;&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260511102121EWYMFZ</odePageId><odeParentPageId>20260511102121YLXMBC</odeParentPageId><pageName>LICENCIAS Y SEGURIDAD</pageName><odeNavStructureOrder>1</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>LICENCIAS Y SEGURIDAD</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121EWYMFZ</odePageId><odeBlockId>20260511102121TVFOAG</odeBlockId><blockName>AUTORÍA</blockName><iconName>icon_alert</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121EWYMFZ</odePageId><odeBlockId>20260511102121TVFOAG</odeBlockId><odeIdeviceId>20260508205239328D3Y</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);"&gt;
+&lt;div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);"&gt;&lt;!-- Estilos integrados (Compatibles con eXeLearning) --&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+        #decalogo-exelearning * { box-sizing: border-box; }
+        .exe-header { background: linear-gradient(to right, #2563eb, #3730a3); color: white; padding: 2rem; text-align: center; }
+        .exe-header h2 { margin: 0 0 10px 0 !important; font-size: 2.2em !important; font-weight: bold; text-transform: uppercase; color: white !important; letter-spacing: 1px; }
+        .exe-header p { margin: 0; font-size: 1.1em; opacity: 0.9; }
+        .exe-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; padding: 2rem; background-color: #f9fafb; }
+        .exe-card { padding: 1.5rem; border-radius: 10px; background: #fff; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s; border-left: 5px solid #ccc; }
+        .exe-card:hover { transform: translateY(-3px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+        .exe-card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+        .exe-icon { font-size: 2em; line-height: 1; }
+        .exe-card-title { margin: 0 !important; font-size: 1.2em !important; font-weight: bold; }
+        .exe-card p { margin: 0; font-size: 0.95em; line-height: 1.6; color: #4b5563; }
+        .exe-footer { background-color: #1f2937; color: #d1d5db; text-align: center; padding: 1rem; font-size: 0.85em; }
+
+        /* Colores específicos para cada tarjeta */
+        .card-red { background-color: #fef2f2; border-color: #ef4444; }
+        .card-red .exe-card-title { color: #b91c1c !important; }
+
+        .card-green { background-color: #f0fdf4; border-color: #22c55e; }
+        .card-green .exe-card-title { color: #15803d !important; }
+
+        .card-orange { background-color: #fff7ed; border-color: #f97316; }
+        .card-orange .exe-card-title { color: #c2410c !important; }
+
+        .card-blue { background-color: #eff6ff; border-color: #3b82f6; }
+        .card-blue .exe-card-title { color: #1d4ed8 !important; }
+
+        .card-teal { background-color: #f0fdfa; border-color: #14b8a6; }
+        .card-teal .exe-card-title { color: #0f766e !important; }
+
+        .card-purple { background-color: #faf5ff; border-color: #a855f7; }
+        .card-purple .exe-card-title { color: #7e22ce !important; }
+
+        .card-pink { background-color: #fdf2f8; border-color: #ec4899; }
+        .card-pink .exe-card-title { color: #be185d !important; }
+
+        .card-indigo { background-color: #eef2ff; border-color: #6366f1; }
+        .card-indigo .exe-card-title { color: #4338ca !important; }
+
+        .card-yellow { background-color: #fefce8; border-color: #eab308; }
+        .card-yellow .exe-card-title { color: #a16207 !important; }
+
+        .card-gray { background-color: #f3f4f6; border-color: #4b5563; }
+        .card-gray .exe-card-title { color: #1f2937 !important; }
+    &lt;/style&gt;
+&lt;div id="decalogo-exelearning" style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);"&gt;&lt;!-- Encabezado --&gt;
+&lt;div class="exe-header"&gt;
+&lt;h2&gt;Decálogo Digital&lt;/h2&gt;
+&lt;p&gt;Guía de Licencias, Privacidad y Garantía de Derechos Digitales&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Cuadrícula de Contenidos --&gt;
+&lt;div class="exe-grid"&gt;&lt;!-- Tarjeta 1 --&gt;
+&lt;div class="exe-card card-red"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;©️&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;1. Copyright&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Todos los derechos reservados.&lt;/strong&gt; No puedes usar, copiar ni modificar la obra de otra persona sin pedirle permiso explícito.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 2 --&gt;
+&lt;div class="exe-card card-green"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🌍&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;2. Dominio Público&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Patrimonio de todos.&lt;/strong&gt; Son obras sin restricciones legales (derechos expirados o renunciados). Úsalas y compártelas libremente.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 3 --&gt;
+&lt;div class="exe-card card-orange"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🅭&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;3. Creative Commons&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Algunos derechos reservados.&lt;/strong&gt; El autor permite el uso, pero con condiciones (como nombrarle, no comercializar o no modificar).&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 4 --&gt;
+&lt;div class="exe-card card-blue"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🄯&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;4. Copyleft&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Libertad en cadena.&lt;/strong&gt; Puedes modificar la obra, con la condición mágica de compartir tu nueva creación con la misma licencia libre.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 5 --&gt;
+&lt;div class="exe-card card-teal"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🐧&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;5. GNU / GPL&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Software Libre.&lt;/strong&gt; Licencia informática que garantiza tu libertad para usar, estudiar, modificar y compartir el código de un programa.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 6 --&gt;
+&lt;div class="exe-card card-purple"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🛡️&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;6. Protección de Datos&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Tu información vale oro.&lt;/strong&gt; Tus datos (nombre, fotos, lugar de estudio) están protegidos. Piensa bien antes de darlos en internet.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 7 --&gt;
+&lt;div class="exe-card card-pink"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🤝&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;7. Consentimiento&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Respeto a los demás.&lt;/strong&gt; Nunca publiques imágenes, vídeos o información de tus compañeros o profes sin su permiso explícito.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 8 --&gt;
+&lt;div class="exe-card card-indigo"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🗑️&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;8. Derecho al Olvido&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Controla tu huella digital.&lt;/strong&gt; Como garantía de tus derechos, puedes solicitar a los buscadores que borren información sobre ti que sea obsoleta o perjudicial.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 9 --&gt;
+&lt;div class="exe-card card-yellow"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;📝&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;9. Citar Fuentes&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Cuestión de ética.&lt;/strong&gt; Aunque uses imágenes gratuitas o de Dominio Público, es fundamental nombrar siempre al creador original.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 10 --&gt;
+&lt;div class="exe-card card-gray"&gt;
+&lt;div class="exe-card-header"&gt;&lt;span class="exe-icon"&gt;🎓&lt;/span&gt;
+&lt;h3 class="exe-card-title"&gt;10. Ciudadanía Digital&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Sé responsable.&lt;/strong&gt; Navega de forma segura, respeta las licencias de las obras ajenas y protege activamente tu identidad digital.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Pie de página --&gt;
+&lt;div class="exe-footer"&gt;
+&lt;p&gt;Infografía educativa adaptada para el aula | Incluye conceptos de Propiedad Intelectual, LOVGPD y Garantía de Derechos Digitales.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260508205239328D3Y","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;div style=\"font-family: 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\"&gt;\n&lt;div style=\"font-family: 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\"&gt;&lt;!-- Estilos integrados (Compatibles con eXeLearning) --&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;style&gt;\n        #decalogo-exelearning * { box-sizing: border-box; }\n        .exe-header { background: linear-gradient(to right, #2563eb, #3730a3); color: white; padding: 2rem; text-align: center; }\n        .exe-header h2 { margin: 0 0 10px 0 !important; font-size: 2.2em !important; font-weight: bold; text-transform: uppercase; color: white !important; letter-spacing: 1px; }\n        .exe-header p { margin: 0; font-size: 1.1em; opacity: 0.9; }\n        .exe-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; padding: 2rem; background-color: #f9fafb; }\n        .exe-card { padding: 1.5rem; border-radius: 10px; background: #fff; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s; border-left: 5px solid #ccc; }\n        .exe-card:hover { transform: translateY(-3px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }\n        .exe-card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }\n        .exe-icon { font-size: 2em; line-height: 1; }\n        .exe-card-title { margin: 0 !important; font-size: 1.2em !important; font-weight: bold; }\n        .exe-card p { margin: 0; font-size: 0.95em; line-height: 1.6; color: #4b5563; }\n        .exe-footer { background-color: #1f2937; color: #d1d5db; text-align: center; padding: 1rem; font-size: 0.85em; }\n\n        /* Colores específicos para cada tarjeta */\n        .card-red { background-color: #fef2f2; border-color: #ef4444; }\n        .card-red .exe-card-title { color: #b91c1c !important; }\n\n        .card-green { background-color: #f0fdf4; border-color: #22c55e; }\n        .card-green .exe-card-title { color: #15803d !important; }\n\n        .card-orange { background-color: #fff7ed; border-color: #f97316; }\n        .card-orange .exe-card-title { color: #c2410c !important; }\n\n        .card-blue { background-color: #eff6ff; border-color: #3b82f6; }\n        .card-blue .exe-card-title { color: #1d4ed8 !important; }\n\n        .card-teal { background-color: #f0fdfa; border-color: #14b8a6; }\n        .card-teal .exe-card-title { color: #0f766e !important; }\n\n        .card-purple { background-color: #faf5ff; border-color: #a855f7; }\n        .card-purple .exe-card-title { color: #7e22ce !important; }\n\n        .card-pink { background-color: #fdf2f8; border-color: #ec4899; }\n        .card-pink .exe-card-title { color: #be185d !important; }\n\n        .card-indigo { background-color: #eef2ff; border-color: #6366f1; }\n        .card-indigo .exe-card-title { color: #4338ca !important; }\n\n        .card-yellow { background-color: #fefce8; border-color: #eab308; }\n        .card-yellow .exe-card-title { color: #a16207 !important; }\n\n        .card-gray { background-color: #f3f4f6; border-color: #4b5563; }\n        .card-gray .exe-card-title { color: #1f2937 !important; }\n    &lt;/style&gt;\n&lt;div id=\"decalogo-exelearning\" style=\"font-family: 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\"&gt;&lt;!-- Encabezado --&gt;\n&lt;div class=\"exe-header\"&gt;\n&lt;h2&gt;Decálogo Digital&lt;/h2&gt;\n&lt;p&gt;Guía de Licencias, Privacidad y Garantía de Derechos Digitales&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Cuadrícula de Contenidos --&gt;\n&lt;div class=\"exe-grid\"&gt;&lt;!-- Tarjeta 1 --&gt;\n&lt;div class=\"exe-card card-red\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;©️&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;1. Copyright&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Todos los derechos reservados.&lt;/strong&gt; No puedes usar, copiar ni modificar la obra de otra persona sin pedirle permiso explícito.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 2 --&gt;\n&lt;div class=\"exe-card card-green\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🌍&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;2. Dominio Público&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Patrimonio de todos.&lt;/strong&gt; Son obras sin restricciones legales (derechos expirados o renunciados). Úsalas y compártelas libremente.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 3 --&gt;\n&lt;div class=\"exe-card card-orange\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🅭&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;3. Creative Commons&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Algunos derechos reservados.&lt;/strong&gt; El autor permite el uso, pero con condiciones (como nombrarle, no comercializar o no modificar).&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 4 --&gt;\n&lt;div class=\"exe-card card-blue\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🄯&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;4. Copyleft&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Libertad en cadena.&lt;/strong&gt; Puedes modificar la obra, con la condición mágica de compartir tu nueva creación con la misma licencia libre.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 5 --&gt;\n&lt;div class=\"exe-card card-teal\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🐧&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;5. GNU / GPL&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Software Libre.&lt;/strong&gt; Licencia informática que garantiza tu libertad para usar, estudiar, modificar y compartir el código de un programa.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 6 --&gt;\n&lt;div class=\"exe-card card-purple\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🛡️&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;6. Protección de Datos&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Tu información vale oro.&lt;/strong&gt; Tus datos (nombre, fotos, lugar de estudio) están protegidos. Piensa bien antes de darlos en internet.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 7 --&gt;\n&lt;div class=\"exe-card card-pink\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🤝&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;7. Consentimiento&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Respeto a los demás.&lt;/strong&gt; Nunca publiques imágenes, vídeos o información de tus compañeros o profes sin su permiso explícito.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 8 --&gt;\n&lt;div class=\"exe-card card-indigo\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🗑️&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;8. Derecho al Olvido&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Controla tu huella digital.&lt;/strong&gt; Como garantía de tus derechos, puedes solicitar a los buscadores que borren información sobre ti que sea obsoleta o perjudicial.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 9 --&gt;\n&lt;div class=\"exe-card card-yellow\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;📝&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;9. Citar Fuentes&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Cuestión de ética.&lt;/strong&gt; Aunque uses imágenes gratuitas o de Dominio Público, es fundamental nombrar siempre al creador original.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 10 --&gt;\n&lt;div class=\"exe-card card-gray\"&gt;\n&lt;div class=\"exe-card-header\"&gt;&lt;span class=\"exe-icon\"&gt;🎓&lt;/span&gt;\n&lt;h3 class=\"exe-card-title\"&gt;10. Ciudadanía Digital&lt;/h3&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Sé responsable.&lt;/strong&gt; Navega de forma segura, respeta las licencias de las obras ajenas y protege activamente tu identidad digital.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Pie de página --&gt;\n&lt;div class=\"exe-footer\"&gt;\n&lt;p&gt;Infografía educativa adaptada para el aula | Incluye conceptos de Propiedad Intelectual, LOVGPD y Garantía de Derechos Digitales.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260511102121WZXPCW</odePageId><odeParentPageId>20260511102121YLXMBC</odeParentPageId><pageName>TEMPORALIZACIÓN</pageName><odeNavStructureOrder>2</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>TEMPORALIZACIÓN</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121WZXPCW</odePageId><odeBlockId>20260511102121WTTAZN</odeBlockId><blockName>TEMPORALIZACIÓN</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121WZXPCW</odePageId><odeBlockId>20260511102121WTTAZN</odeBlockId><odeIdeviceId>202605082054153698MJ</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p style="text-align: justify;"&gt;&lt;span style="color: #3598db;"&gt;&lt;strong&gt;¡Comenzamos nuestro reto! &lt;/strong&gt;&lt;em&gt;Para llevar a cabo este proyecto con éxito, vamos a organizar nuestro trabajo a lo largo de 8 sesiones. Hemos dividido todo el proceso en 4 fases principales para que podamos avanzar paso a paso de forma clara y ordenada.&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #3598db;"&gt;&lt;em&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="{{context_path}}/202605082054153698MJ/mceclip2.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: 10pt;"&gt;&lt;em&gt;Fuente: Imagen propia elaborada con Canva&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"202605082054153698MJ","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p style=\"text-align: justify;\"&gt;&lt;span style=\"color: #3598db;\"&gt;&lt;strong&gt;¡Comenzamos nuestro reto! &lt;/strong&gt;&lt;em&gt;Para llevar a cabo este proyecto con éxito, vamos a organizar nuestro trabajo a lo largo de 8 sesiones. Hemos dividido todo el proceso en 4 fases principales para que podamos avanzar paso a paso de forma clara y ordenada.&lt;/em&gt;&lt;/span&gt;&lt;span style=\"color: #3598db;\"&gt;&lt;em&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;img src=\"{{context_path}}/202605082054153698MJ/mceclip2.png\" /&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 10pt;\"&gt;&lt;em&gt;Fuente: Imagen propia elaborada con Canva&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260511102121SXYYQT</odePageId><odeParentPageId>20260511102121YLXMBC</odeParentPageId><pageName>GUÍA DIDÁCTICA</pageName><odeNavStructureOrder>3</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>GUÍA DIDÁCTICA</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121SXYYQT</odePageId><odeBlockId>20260511102121SRUORZ</odeBlockId><blockName>RELACIÓN TAREAS Y CRITERIOS DE EVALUACIÓN</blockName><iconName>icon_letters</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121SXYYQT</odePageId><odeBlockId>20260511102121SRUORZ</odeBlockId><odeIdeviceId>202605082058259588AH</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;span style="color: #ffffff; font-family: inherit; font-size: inherit;"&gt;piar Tabla&lt;/span&gt;&lt;/p&gt;
+&lt;div class="w-full max-w-6xl"&gt;
+&lt;div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden" id="table-container"&gt;
+&lt;div class="overflow-x-auto"&gt;
+&lt;table class="w-full text-left" id="project-table"&gt;
+&lt;thead&gt;
+&lt;tr class="bg-indigo-50 border-b border-indigo-100"&gt;
+&lt;th class="p-4 font-semibold text-indigo-900 whitespace-nowrap min-w-[250px]"&gt;📝 Tarea&lt;/th&gt;
+&lt;th class="p-4 font-semibold text-indigo-900 min-w-[250px]"&gt;🎯 Criterio de Evaluación&lt;/th&gt;
+&lt;th class="p-4 font-semibold text-indigo-900 whitespace-nowrap"&gt;👥 Agrupamiento&lt;/th&gt;
+&lt;th class="p-4 font-semibold text-indigo-900 whitespace-nowrap"&gt;⏱️ Tiempo&lt;/th&gt;
+&lt;th class="p-4 font-semibold text-indigo-900 min-w-[200px]"&gt;🛠️ Herramienta Sugerida&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody class="divide-y divide-slate-100 text-sm"&gt;&lt;!-- Fila 1 --&gt;
+&lt;tr class="hover:bg-slate-50 transition-colors group"&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-indigo-700 block mb-1 text-base"&gt;1. Identidad visual&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed block"&gt;Diseño de la identidad (nombre y logo). Configuración del documento de trabajo compartido.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-slate-800"&gt;4.1.&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed"&gt;Modelizar y representar gráficamente conceptos (fracciones) utilizando herramientas tradicionales y digitales.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100"&gt;1 sesión&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-slate-800 block"&gt;Canva&lt;/strong&gt; &lt;span class="text-slate-500 text-xs mt-1 block"&gt;(Plantillas de Identidad Visual)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Fila 2 --&gt;
+&lt;tr class="hover:bg-slate-50 transition-colors group"&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-indigo-700 block mb-1 text-base"&gt;2. Carta de Platos (Fracciones)&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed block"&gt;Diseño del menú representando gráficamente las porciones (ej. pizzas/pasteles) y su valor numérico fraccionario.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-slate-800"&gt;4.1.&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed"&gt;Modelizar y representar gráficamente conceptos (fracciones) utilizando herramientas tradicionales y digitales.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100"&gt;2 sesiones&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-slate-800 block"&gt;Canva&lt;/strong&gt; &lt;span class="text-slate-500 text-xs mt-1 block"&gt;(Gráficos y elementos de diseño)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Fila 3 --&gt;
+&lt;tr class="hover:bg-slate-50 transition-colors group"&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-indigo-700 block mb-1 text-base"&gt;3. Gestión Zero Waste&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed block"&gt;Cálculo de costes e ingredientes para evitar desperdicio. Uso de tablas.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-slate-800"&gt;1.1.&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed"&gt;Comprender problemas de la vida cotidiana y aplicar estrategias para su resolución usando números racionales.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100"&gt;3 sesiones&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;ul class="space-y-2 text-sm"&gt;
+&lt;li&gt;&lt;strong class="text-slate-800 block"&gt;Google Sheets&lt;/strong&gt; &lt;span class="text-slate-500 text-xs block"&gt;(Plantilla docente para presupuestos)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong class="text-slate-800 block"&gt;Calculadora&lt;/strong&gt; &lt;span class="text-slate-500 text-xs block"&gt;(Herramienta para operaciones)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong class="text-slate-800 block"&gt;Canva&lt;/strong&gt; &lt;span class="text-slate-500 text-xs block"&gt;(Plasmar resultados)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Fila 4 --&gt;
+&lt;tr class="hover:bg-slate-50 transition-colors group"&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-indigo-700 block mb-1 text-base"&gt;4. Pitch y presentación&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed block"&gt;Exposición final del proyecto Canva ante el comité de inversores.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;&lt;strong class="text-slate-800"&gt;8.1.&lt;/strong&gt; &lt;span class="text-slate-600 leading-relaxed"&gt;Comunicar información matemática usando un lenguaje adecuado y herramientas digitales de forma clara.&lt;/span&gt;&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;div class="inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100"&gt;2 sesiones&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="p-4"&gt;
+&lt;ul class="space-y-2 text-sm"&gt;
+&lt;li&gt;&lt;strong class="text-slate-800"&gt;Canva Presentaciones&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong class="text-slate-800"&gt;PDI&lt;/strong&gt; &lt;span class="text-slate-500 text-xs block"&gt;(Pizarra Digital Interactiva)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;span style="color: #ffffff;"&gt;&amp;nbsp;¡Tabla copiada al portapapeles!&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;script&gt;
+        function copyTable() {
+            const table = document.getElementById('project-table');
+            const range = document.createRange();
+            
+            // Seleccionar el nodo de la tabla
+            range.selectNode(table);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            
+            try {
+                // Ejecutar el comando de copiado
+                document.execCommand('copy');
+                
+                // Mostrar notificación de éxito
+                const toast = document.getElementById('toast');
+                toast.classList.remove('translate-y-20', 'opacity-0');
+                
+                // Ocultar notificación después de 3 segundos
+                setTimeout(() =&gt; {
+                    toast.classList.add('translate-y-20', 'opacity-0');
+                }, 3000);
+            } catch (err) {
+                console.error('Error al copiar: ', err);
+                alert('No se pudo copiar automáticamente. Por favor, selecciona la tabla manualmente y usa Ctrl+C / Cmd+C.');
+            }
+            
+            // Limpiar la selección para que no se quede sombreado
+            selection.removeAllRanges();
+        }
+    &lt;/script&gt;
+&lt;/p&gt;
+&lt;style&gt;
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Estilos adicionales para asegurar que la tabla se vea bien al copiarla */
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border-bottom: 1px solid #e2e8f0; text-align: left; vertical-align: top; }
+    &lt;/style&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"202605082058259588AH","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;span style=\"color: #ffffff; font-family: inherit; font-size: inherit;\"&gt;piar Tabla&lt;/span&gt;&lt;/p&gt;\n&lt;div class=\"w-full max-w-6xl\"&gt;\n&lt;div class=\"bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden\" id=\"table-container\"&gt;\n&lt;div class=\"overflow-x-auto\"&gt;\n&lt;table class=\"w-full text-left\" id=\"project-table\"&gt;\n&lt;thead&gt;\n&lt;tr class=\"bg-indigo-50 border-b border-indigo-100\"&gt;\n&lt;th class=\"p-4 font-semibold text-indigo-900 whitespace-nowrap min-w-[250px]\"&gt;📝 Tarea&lt;/th&gt;\n&lt;th class=\"p-4 font-semibold text-indigo-900 min-w-[250px]\"&gt;🎯 Criterio de Evaluación&lt;/th&gt;\n&lt;th class=\"p-4 font-semibold text-indigo-900 whitespace-nowrap\"&gt;👥 Agrupamiento&lt;/th&gt;\n&lt;th class=\"p-4 font-semibold text-indigo-900 whitespace-nowrap\"&gt;⏱️ Tiempo&lt;/th&gt;\n&lt;th class=\"p-4 font-semibold text-indigo-900 min-w-[200px]\"&gt;🛠️ Herramienta Sugerida&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody class=\"divide-y divide-slate-100 text-sm\"&gt;&lt;!-- Fila 1 --&gt;\n&lt;tr class=\"hover:bg-slate-50 transition-colors group\"&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-indigo-700 block mb-1 text-base\"&gt;1. Identidad visual&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed block\"&gt;Diseño de la identidad (nombre y logo). Configuración del documento de trabajo compartido.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-slate-800\"&gt;4.1.&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed\"&gt;Modelizar y representar gráficamente conceptos (fracciones) utilizando herramientas tradicionales y digitales.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100\"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100\"&gt;1 sesión&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-slate-800 block\"&gt;Canva&lt;/strong&gt; &lt;span class=\"text-slate-500 text-xs mt-1 block\"&gt;(Plantillas de Identidad Visual)&lt;/span&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;!-- Fila 2 --&gt;\n&lt;tr class=\"hover:bg-slate-50 transition-colors group\"&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-indigo-700 block mb-1 text-base\"&gt;2. Carta de Platos (Fracciones)&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed block\"&gt;Diseño del menú representando gráficamente las porciones (ej. pizzas/pasteles) y su valor numérico fraccionario.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-slate-800\"&gt;4.1.&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed\"&gt;Modelizar y representar gráficamente conceptos (fracciones) utilizando herramientas tradicionales y digitales.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100\"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100\"&gt;2 sesiones&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-slate-800 block\"&gt;Canva&lt;/strong&gt; &lt;span class=\"text-slate-500 text-xs mt-1 block\"&gt;(Gráficos y elementos de diseño)&lt;/span&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;!-- Fila 3 --&gt;\n&lt;tr class=\"hover:bg-slate-50 transition-colors group\"&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-indigo-700 block mb-1 text-base\"&gt;3. Gestión Zero Waste&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed block\"&gt;Cálculo de costes e ingredientes para evitar desperdicio. Uso de tablas.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-slate-800\"&gt;1.1.&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed\"&gt;Comprender problemas de la vida cotidiana y aplicar estrategias para su resolución usando números racionales.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100\"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100\"&gt;3 sesiones&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;ul class=\"space-y-2 text-sm\"&gt;\n&lt;li&gt;&lt;strong class=\"text-slate-800 block\"&gt;Google Sheets&lt;/strong&gt; &lt;span class=\"text-slate-500 text-xs block\"&gt;(Plantilla docente para presupuestos)&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong class=\"text-slate-800 block\"&gt;Calculadora&lt;/strong&gt; &lt;span class=\"text-slate-500 text-xs block\"&gt;(Herramienta para operaciones)&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong class=\"text-slate-800 block\"&gt;Canva&lt;/strong&gt; &lt;span class=\"text-slate-500 text-xs block\"&gt;(Plasmar resultados)&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;!-- Fila 4 --&gt;\n&lt;tr class=\"hover:bg-slate-50 transition-colors group\"&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-indigo-700 block mb-1 text-base\"&gt;4. Pitch y presentación&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed block\"&gt;Exposición final del proyecto Canva ante el comité de inversores.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;&lt;strong class=\"text-slate-800\"&gt;8.1.&lt;/strong&gt; &lt;span class=\"text-slate-600 leading-relaxed\"&gt;Comunicar información matemática usando un lenguaje adecuado y herramientas digitales de forma clara.&lt;/span&gt;&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-100\"&gt;Pequeño grupo (3-4 personas)&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;div class=\"inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full text-xs font-semibold border border-amber-100\"&gt;2 sesiones&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"p-4\"&gt;\n&lt;ul class=\"space-y-2 text-sm\"&gt;\n&lt;li&gt;&lt;strong class=\"text-slate-800\"&gt;Canva Presentaciones&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong class=\"text-slate-800\"&gt;PDI&lt;/strong&gt; &lt;span class=\"text-slate-500 text-xs block\"&gt;(Pizarra Digital Interactiva)&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;span style=\"color: #ffffff;\"&gt; ¡Tabla copiada al portapapeles!&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;\n&lt;script&gt;\n        function copyTable() {\n            const table = document.getElementById('project-table');\n            const range = document.createRange();\n            \n            // Seleccionar el nodo de la tabla\n            range.selectNode(table);\n            const selection = window.getSelection();\n            selection.removeAllRanges();\n            selection.addRange(range);\n            \n            try {\n                // Ejecutar el comando de copiado\n                document.execCommand('copy');\n                \n                // Mostrar notificación de éxito\n                const toast = document.getElementById('toast');\n                toast.classList.remove('translate-y-20', 'opacity-0');\n                \n                // Ocultar notificación después de 3 segundos\n                setTimeout(() =&gt; {\n                    toast.classList.add('translate-y-20', 'opacity-0');\n                }, 3000);\n            } catch (err) {\n                console.error('Error al copiar: ', err);\n                alert('No se pudo copiar automáticamente. Por favor, selecciona la tabla manualmente y usa Ctrl+C / Cmd+C.');\n            }\n            \n            // Limpiar la selección para que no se quede sombreado\n            selection.removeAllRanges();\n        }\n    &lt;/script&gt;\n&lt;/p&gt;\n&lt;style&gt;\n        body { font-family: 'Inter', sans-serif; }\n        \n        /* Estilos adicionales para asegurar que la tabla se vea bien al copiarla */\n        table { border-collapse: collapse; width: 100%; }\n        th, td { border-bottom: 1px solid #e2e8f0; text-align: left; vertical-align: top; }\n    &lt;/style&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260511102121ZDACKF</odePageId><odeParentPageId>20260511102121YLXMBC</odeParentPageId><pageName>CURACIÓN DE CONTENIDO</pageName><odeNavStructureOrder>4</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>CURACIÓN DE CONTENIDO</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121ZDACKF</odePageId><odeBlockId>20260511102121PMJCAO</odeBlockId><blockName>Matemáticas sin barreras</blockName><iconName>icon_math</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121ZDACKF</odePageId><odeBlockId>20260511102121PMJCAO</odeBlockId><odeIdeviceId>20260509115241450JEX</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p style="text-align: justify;"&gt;&lt;span style="color: #2dc26b;"&gt;&lt;em&gt;Enseñar matemáticas a nuestro alumnado con Necesidades Específicas de Apoyo Educativo (NEAE) es un reto apasionante. A menudo, los conceptos matemáticos resultan demasiado abstractos, por lo que nuestra misión es aterrizarlos, hacerlos visuales, manipulativos y, sobre todo, accesibles.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="color: #2dc26b;"&gt;&lt;em&gt;En esta sección te invito a descubrir cómo la curación de contenidos digitales se convierte en nuestra mejor aliada para derribar barreras. A través de la lente del Diseño Universal para el Aprendizaje (DUA), exploraremos cómo busco, filtro y organizo los recursos en mi día a día, y te presentaré dos colecciones prácticas diseñadas para conectar las matemáticas con la vida real y optimizar la gestión docente. &lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="color: #2dc26b;"&gt;&lt;em&gt;¡Acompáñame a cocinar números!&lt;/em&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;
+&lt;script src="https://unpkg.com/lucide@latest"&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;style&gt;
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    &lt;/style&gt;
+&lt;div class="max-w-4xl mx-auto space-y-8"&gt;&lt;!-- Header --&gt;&lt;header class="bg-white rounded-2xl shadow-sm p-8 border border-gray-100 text-center"&gt;
+&lt;h1 class="text-3xl font-bold text-indigo-700 mb-2"&gt;Curación de Contenidos: Matemáticas en el Aula de PT&lt;/h1&gt;
+&lt;/header&gt;&lt;!-- Section 1: Proceso de curación --&gt;
+&lt;section class="bg-white rounded-2xl shadow-sm p-8 border border-gray-100"&gt;
+&lt;div class="flex items-center gap-3 mb-6"&gt;&lt;i data-lucide="filter" class="text-indigo-600 w-8 h-8"&gt;&lt;/i&gt;
+&lt;h2 class="text-2xl font-semibold"&gt;1. Mi proceso de curación en el día a día (Matemáticas y NEAE)&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-6"&gt;
+&lt;div class="bg-indigo-50 p-5 rounded-xl"&gt;
+&lt;h3 class="font-semibold text-indigo-900 flex items-center gap-2 mb-2"&gt;&lt;i data-lucide="search" class="w-5 h-5 text-indigo-600"&gt;&lt;/i&gt; Análisis de necesidades&lt;/h3&gt;
+&lt;p class="text-sm text-gray-700"&gt;Mi alumnado con NEAE necesita que las matemáticas sean visuales, secuenciadas y accesibles (DUA). Busco recursos manipulativos digitales que se adapten a sus diferentes ritmos y estilos de aprendizaje.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="bg-indigo-50 p-5 rounded-xl"&gt;
+&lt;h3 class="font-semibold text-indigo-900 flex items-center gap-2 mb-2"&gt;&lt;i data-lucide="check-circle" class="w-5 h-5 text-indigo-600"&gt;&lt;/i&gt; Selección y filtrado&lt;/h3&gt;
+&lt;p class="text-sm text-gray-700"&gt;Filtro buscando adaptabilidad. Selecciono Recursos Educativos Abiertos (REA Andalucía, CREA Extremadura) que me permitan modificar el nivel de exigencia, especialmente en el área de competencia matemática.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="bg-indigo-50 p-5 rounded-xl"&gt;
+&lt;h3 class="font-semibold text-indigo-900 flex items-center gap-2 mb-2"&gt;&lt;i data-lucide="folder-tree" class="w-5 h-5 text-indigo-600"&gt;&lt;/i&gt; Organización&lt;/h3&gt;
+&lt;p class="text-sm text-gray-700"&gt;Organizo los recursos por nivel competencial y tipo de apoyo (refuerzo visual, estimulación cognitiva, herramientas de autor para adaptar temarios) para localizarlos rápidamente cuando un alumno lo requiere.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="bg-indigo-50 p-5 rounded-xl"&gt;
+&lt;h3 class="font-semibold text-indigo-900 flex items-center gap-2 mb-2"&gt;&lt;i data-lucide="share-2" class="w-5 h-5 text-indigo-600"&gt;&lt;/i&gt; Distribución y Medición&lt;/h3&gt;
+&lt;p class="text-sm text-gray-700"&gt;Distribuyo en Google Classroom entornos libres de distracciones. Mido el progreso y la motivación con herramientas de evaluación formativa y lúdica (Kahoot, Plickers, Edpuzzle).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- Section 2: Colección 1 (Alumnado) --&gt;
+&lt;section class="bg-white rounded-2xl shadow-sm p-8 border border-gray-100"&gt;
+&lt;div class="flex items-center justify-between mb-6 flex-wrap gap-4"&gt;
+&lt;div class="flex items-center gap-3"&gt;&lt;i data-lucide="users" class="text-emerald-600 w-8 h-8"&gt;&lt;/i&gt;
+&lt;h2 class="text-2xl font-semibold"&gt;2. Colección 1: Para el alumnado (Proyecto Food Truck)&lt;/h2&gt;
+&lt;/div&gt;
+&lt;!-- Enlace real a tu Padlet --&gt; &lt;a href="https://padlet.com/barbaparragaestelamaria/food-truck-4725qrlqamu470h1" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-lg font-medium transition-colors flex items-center gap-2 shadow-sm" rel="noopener"&gt; &lt;i data-lucide="external-link" class="w-4 h-4"&gt;&lt;/i&gt; Ver Muro en Padlet &lt;/a&gt;&lt;/div&gt;
+&lt;p class="text-gray-600 mb-6"&gt;Para el proyecto &lt;strong&gt;"Cocinando números: Food truck empire"&lt;/strong&gt; definido en la actividad 2.1, he creado un &lt;strong&gt;muro digital interactivo en Padlet&lt;/strong&gt;. El proyecto busca que el alumnado aplique las fracciones en un contexto real de emprendimiento. Para mi alumnado NEAE, he curado recursos que aterrizan la abstracción matemática mediante apoyos visuales y herramientas de diseño muy intuitivas.&lt;/p&gt;
+&lt;h3 class="font-semibold text-gray-800 mb-3"&gt;Recursos integrados para la adaptación del proyecto:&lt;/h3&gt;
+&lt;ul class="space-y-3"&gt;
+&lt;li class="flex items-center gap-3 bg-gray-50 p-3 rounded-lg border border-gray-100 hover:border-emerald-200 transition-colors"&gt;&lt;i data-lucide="calculator" class="w-5 h-5 text-emerald-500"&gt;&lt;/i&gt; &lt;a href="https://phet.colorado.edu/es/simulations/build-a-fraction" target="_blank" class="text-emerald-700 hover:underline font-medium" rel="noopener"&gt;Simulador PhET (Construye una Fracción)&lt;/a&gt; &lt;span class="text-sm text-gray-500 ml-auto hidden sm:inline"&gt;Manipulativo visual para entender las porciones de los menús&lt;/span&gt;&lt;/li&gt;
+&lt;li class="flex items-center gap-3 bg-gray-50 p-3 rounded-lg border border-gray-100 hover:border-emerald-200 transition-colors"&gt;&lt;i data-lucide="layout" class="w-5 h-5 text-emerald-500"&gt;&lt;/i&gt; &lt;a href="https://www.canva.com/" target="_blank" class="text-emerald-700 hover:underline font-medium" rel="noopener"&gt;Canva (Educación)&lt;/a&gt; &lt;span class="text-sm text-gray-500 ml-auto hidden sm:inline"&gt;Plantillas accesibles para diseñar el logo y la carta del Food Truck&lt;/span&gt;&lt;/li&gt;
+&lt;li class="flex items-center gap-3 bg-gray-50 p-3 rounded-lg border border-gray-100 hover:border-emerald-200 transition-colors"&gt;&lt;i data-lucide="book-open" class="w-5 h-5 text-emerald-500"&gt;&lt;/i&gt; &lt;a href="https://rea.ceja.juntadeandalucia.es/" target="_blank" class="text-emerald-700 hover:underline font-medium" rel="noopener"&gt;REA Andalucía (Proyecto DUA)&lt;/a&gt; &lt;span class="text-sm text-gray-500 ml-auto hidden sm:inline"&gt;Materiales curriculares andaluces con Diseño Universal para adaptar la teoría de costes&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;!-- Section 3: Colección 2 (Docentes) --&gt;
+&lt;section class="bg-white rounded-2xl shadow-sm p-8 border border-gray-100"&gt;
+&lt;div class="flex items-center justify-between mb-6 flex-wrap gap-4"&gt;
+&lt;div class="flex items-center gap-3"&gt;&lt;i data-lucide="briefcase" class="text-blue-600 w-8 h-8"&gt;&lt;/i&gt;
+&lt;h2 class="text-2xl font-semibold"&gt;3. Colección 2: Gestión Docente&lt;/h2&gt;
+&lt;/div&gt;
+&lt;!-- Enlace real a tu Symbaloo --&gt; &lt;a href="https://www.symbaloo.com/shared/AAAABogc7fcAA42ADtHPTw==" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg font-medium transition-colors flex items-center gap-2 shadow-sm" rel="noopener"&gt; &lt;i data-lucide="external-link" class="w-4 h-4"&gt;&lt;/i&gt; Ver Webmix en Symbaloo &lt;/a&gt;&lt;/div&gt;
+&lt;p class="text-gray-600 mb-6"&gt;Para organizar mi labor docente diaria y poder compartir mis herramientas de trabajo con otros compañeros, he centralizado los accesos en un &lt;strong&gt;Webmix de Symbaloo&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 class="font-semibold text-gray-800 mb-3"&gt;Herramientas principales incluidas en mi Symbaloo:&lt;/h3&gt;
+&lt;ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4"&gt;
+&lt;li&gt;&lt;strong&gt;Gestión y Organización:&lt;/strong&gt; Séneca, Google Classroom y Google Drive.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluación y Recursos:&lt;/strong&gt; Kahoot, Wordwall y Web del Matemático.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;!-- Initialize Icons --&gt;
+&lt;p&gt;
+&lt;script&gt;
+        lucide.createIcons();
+    &lt;/script&gt;
+&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260509115241450JEX","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p style=\"text-align: justify;\"&gt;&lt;span style=\"color: #2dc26b;\"&gt;&lt;em&gt;Enseñar matemáticas a nuestro alumnado con Necesidades Específicas de Apoyo Educativo (NEAE) es un reto apasionante. A menudo, los conceptos matemáticos resultan demasiado abstractos, por lo que nuestra misión es aterrizarlos, hacerlos visuales, manipulativos y, sobre todo, accesibles.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: justify;\"&gt;&lt;span style=\"color: #2dc26b;\"&gt;&lt;em&gt;En esta sección te invito a descubrir cómo la curación de contenidos digitales se convierte en nuestra mejor aliada para derribar barreras. A través de la lente del Diseño Universal para el Aprendizaje (DUA), exploraremos cómo busco, filtro y organizo los recursos en mi día a día, y te presentaré dos colecciones prácticas diseñadas para conectar las matemáticas con la vida real y optimizar la gestión docente. &lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"color: #2dc26b;\"&gt;&lt;em&gt;¡Acompáñame a cocinar números!&lt;/em&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;\n&lt;script src=\"https://cdn.tailwindcss.com\"&gt;&lt;/script&gt;\n&lt;script src=\"https://unpkg.com/lucide@latest\"&gt;&lt;/script&gt;\n&lt;/p&gt;\n&lt;style&gt;\n        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap');\n        body { font-family: 'Inter', sans-serif; }\n    &lt;/style&gt;\n&lt;div class=\"max-w-4xl mx-auto space-y-8\"&gt;&lt;!-- Header --&gt;&lt;header class=\"bg-white rounded-2xl shadow-sm p-8 border border-gray-100 text-center\"&gt;\n&lt;h1 class=\"text-3xl font-bold text-indigo-700 mb-2\"&gt;Curación de Contenidos: Matemáticas en el Aula de PT&lt;/h1&gt;\n&lt;/header&gt;&lt;!-- Section 1: Proceso de curación --&gt;\n&lt;section class=\"bg-white rounded-2xl shadow-sm p-8 border border-gray-100\"&gt;\n&lt;div class=\"flex items-center gap-3 mb-6\"&gt;&lt;i data-lucide=\"filter\" class=\"text-indigo-600 w-8 h-8\"&gt;&lt;/i&gt;\n&lt;h2 class=\"text-2xl font-semibold\"&gt;1. Mi proceso de curación en el día a día (Matemáticas y NEAE)&lt;/h2&gt;\n&lt;/div&gt;\n&lt;div class=\"grid grid-cols-1 md:grid-cols-2 gap-6\"&gt;\n&lt;div class=\"bg-indigo-50 p-5 rounded-xl\"&gt;\n&lt;h3 class=\"font-semibold text-indigo-900 flex items-center gap-2 mb-2\"&gt;&lt;i data-lucide=\"search\" class=\"w-5 h-5 text-indigo-600\"&gt;&lt;/i&gt; Análisis de necesidades&lt;/h3&gt;\n&lt;p class=\"text-sm text-gray-700\"&gt;Mi alumnado con NEAE necesita que las matemáticas sean visuales, secuenciadas y accesibles (DUA). Busco recursos manipulativos digitales que se adapten a sus diferentes ritmos y estilos de aprendizaje.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"bg-indigo-50 p-5 rounded-xl\"&gt;\n&lt;h3 class=\"font-semibold text-indigo-900 flex items-center gap-2 mb-2\"&gt;&lt;i data-lucide=\"check-circle\" class=\"w-5 h-5 text-indigo-600\"&gt;&lt;/i&gt; Selección y filtrado&lt;/h3&gt;\n&lt;p class=\"text-sm text-gray-700\"&gt;Filtro buscando adaptabilidad. Selecciono Recursos Educativos Abiertos (REA Andalucía, CREA Extremadura) que me permitan modificar el nivel de exigencia, especialmente en el área de competencia matemática.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"bg-indigo-50 p-5 rounded-xl\"&gt;\n&lt;h3 class=\"font-semibold text-indigo-900 flex items-center gap-2 mb-2\"&gt;&lt;i data-lucide=\"folder-tree\" class=\"w-5 h-5 text-indigo-600\"&gt;&lt;/i&gt; Organización&lt;/h3&gt;\n&lt;p class=\"text-sm text-gray-700\"&gt;Organizo los recursos por nivel competencial y tipo de apoyo (refuerzo visual, estimulación cognitiva, herramientas de autor para adaptar temarios) para localizarlos rápidamente cuando un alumno lo requiere.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"bg-indigo-50 p-5 rounded-xl\"&gt;\n&lt;h3 class=\"font-semibold text-indigo-900 flex items-center gap-2 mb-2\"&gt;&lt;i data-lucide=\"share-2\" class=\"w-5 h-5 text-indigo-600\"&gt;&lt;/i&gt; Distribución y Medición&lt;/h3&gt;\n&lt;p class=\"text-sm text-gray-700\"&gt;Distribuyo en Google Classroom entornos libres de distracciones. Mido el progreso y la motivación con herramientas de evaluación formativa y lúdica (Kahoot, Plickers, Edpuzzle).&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/section&gt;\n&lt;!-- Section 2: Colección 1 (Alumnado) --&gt;\n&lt;section class=\"bg-white rounded-2xl shadow-sm p-8 border border-gray-100\"&gt;\n&lt;div class=\"flex items-center justify-between mb-6 flex-wrap gap-4\"&gt;\n&lt;div class=\"flex items-center gap-3\"&gt;&lt;i data-lucide=\"users\" class=\"text-emerald-600 w-8 h-8\"&gt;&lt;/i&gt;\n&lt;h2 class=\"text-2xl font-semibold\"&gt;2. Colección 1: Para el alumnado (Proyecto Food Truck)&lt;/h2&gt;\n&lt;/div&gt;\n&lt;!-- Enlace real a tu Padlet --&gt; &lt;a href=\"https://padlet.com/barbaparragaestelamaria/food-truck-4725qrlqamu470h1\" target=\"_blank\" class=\"bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-lg font-medium transition-colors flex items-center gap-2 shadow-sm\" rel=\"noopener\"&gt; &lt;i data-lucide=\"external-link\" class=\"w-4 h-4\"&gt;&lt;/i&gt; Ver Muro en Padlet &lt;/a&gt;&lt;/div&gt;\n&lt;p class=\"text-gray-600 mb-6\"&gt;Para el proyecto &lt;strong&gt;\"Cocinando números: Food truck empire\"&lt;/strong&gt; definido en la actividad 2.1, he creado un &lt;strong&gt;muro digital interactivo en Padlet&lt;/strong&gt;. El proyecto busca que el alumnado aplique las fracciones en un contexto real de emprendimiento. Para mi alumnado NEAE, he curado recursos que aterrizan la abstracción matemática mediante apoyos visuales y herramientas de diseño muy intuitivas.&lt;/p&gt;\n&lt;h3 class=\"font-semibold text-gray-800 mb-3\"&gt;Recursos integrados para la adaptación del proyecto:&lt;/h3&gt;\n&lt;ul class=\"space-y-3\"&gt;\n&lt;li class=\"flex items-center gap-3 bg-gray-50 p-3 rounded-lg border border-gray-100 hover:border-emerald-200 transition-colors\"&gt;&lt;i data-lucide=\"calculator\" class=\"w-5 h-5 text-emerald-500\"&gt;&lt;/i&gt; &lt;a href=\"https://phet.colorado.edu/es/simulations/build-a-fraction\" target=\"_blank\" class=\"text-emerald-700 hover:underline font-medium\" rel=\"noopener\"&gt;Simulador PhET (Construye una Fracción)&lt;/a&gt; &lt;span class=\"text-sm text-gray-500 ml-auto hidden sm:inline\"&gt;Manipulativo visual para entender las porciones de los menús&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"flex items-center gap-3 bg-gray-50 p-3 rounded-lg border border-gray-100 hover:border-emerald-200 transition-colors\"&gt;&lt;i data-lucide=\"layout\" class=\"w-5 h-5 text-emerald-500\"&gt;&lt;/i&gt; &lt;a href=\"https://www.canva.com/\" target=\"_blank\" class=\"text-emerald-700 hover:underline font-medium\" rel=\"noopener\"&gt;Canva (Educación)&lt;/a&gt; &lt;span class=\"text-sm text-gray-500 ml-auto hidden sm:inline\"&gt;Plantillas accesibles para diseñar el logo y la carta del Food Truck&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"flex items-center gap-3 bg-gray-50 p-3 rounded-lg border border-gray-100 hover:border-emerald-200 transition-colors\"&gt;&lt;i data-lucide=\"book-open\" class=\"w-5 h-5 text-emerald-500\"&gt;&lt;/i&gt; &lt;a href=\"https://rea.ceja.juntadeandalucia.es/\" target=\"_blank\" class=\"text-emerald-700 hover:underline font-medium\" rel=\"noopener\"&gt;REA Andalucía (Proyecto DUA)&lt;/a&gt; &lt;span class=\"text-sm text-gray-500 ml-auto hidden sm:inline\"&gt;Materiales curriculares andaluces con Diseño Universal para adaptar la teoría de costes&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/section&gt;\n&lt;!-- Section 3: Colección 2 (Docentes) --&gt;\n&lt;section class=\"bg-white rounded-2xl shadow-sm p-8 border border-gray-100\"&gt;\n&lt;div class=\"flex items-center justify-between mb-6 flex-wrap gap-4\"&gt;\n&lt;div class=\"flex items-center gap-3\"&gt;&lt;i data-lucide=\"briefcase\" class=\"text-blue-600 w-8 h-8\"&gt;&lt;/i&gt;\n&lt;h2 class=\"text-2xl font-semibold\"&gt;3. Colección 2: Gestión Docente&lt;/h2&gt;\n&lt;/div&gt;\n&lt;!-- Enlace real a tu Symbaloo --&gt; &lt;a href=\"https://www.symbaloo.com/shared/AAAABogc7fcAA42ADtHPTw==\" target=\"_blank\" class=\"bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg font-medium transition-colors flex items-center gap-2 shadow-sm\" rel=\"noopener\"&gt; &lt;i data-lucide=\"external-link\" class=\"w-4 h-4\"&gt;&lt;/i&gt; Ver Webmix en Symbaloo &lt;/a&gt;&lt;/div&gt;\n&lt;p class=\"text-gray-600 mb-6\"&gt;Para organizar mi labor docente diaria y poder compartir mis herramientas de trabajo con otros compañeros, he centralizado los accesos en un &lt;strong&gt;Webmix de Symbaloo&lt;/strong&gt;.&lt;/p&gt;\n&lt;h3 class=\"font-semibold text-gray-800 mb-3\"&gt;Herramientas principales incluidas en mi Symbaloo:&lt;/h3&gt;\n&lt;ul class=\"list-disc pl-5 text-gray-700 space-y-2 mb-4\"&gt;\n&lt;li&gt;&lt;strong&gt;Gestión y Organización:&lt;/strong&gt; Séneca, Google Classroom y Google Drive.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Evaluación y Recursos:&lt;/strong&gt; Kahoot, Wordwall y Web del Matemático.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/section&gt;\n&lt;/div&gt;\n&lt;!-- Initialize Icons --&gt;\n&lt;p&gt;\n&lt;script&gt;\n        lucide.createIcons();\n    &lt;/script&gt;\n&lt;/p&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260511102121KOASZE</odePageId><odeParentPageId>20260511102121YLXMBC</odeParentPageId><pageName>PRODUCTO FINAL SDA</pageName><odeNavStructureOrder>5</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>PRODUCTO FINAL SDA</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121KOASZE</odePageId><odeBlockId>20260511102121UVZLEY</odeBlockId><blockName>PRODUCTO FINAL SDA</blockName><iconName>icon_cabinet</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121KOASZE</odePageId><odeBlockId>20260511102121UVZLEY</odeBlockId><odeIdeviceId>20260509121705569906</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;!-- Tailwind CSS para el diseño --&gt;
+&lt;p&gt;
+&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- Font Awesome para los iconos --&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;!-- Google Fonts para una tipografía moderna --&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;script&gt;
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        food: {
+                            red: '#e63946',
+                            light: '#f1faee',
+                            blue: '#a8dadc',
+                            darkblue: '#457b9d',
+                            navy: '#1d3557',
+                            yellow: '#f4a261',
+                            orange: '#e76f51'
+                        }
+                    }
+                }
+            }
+        }
+    &lt;/script&gt;
+&lt;/p&gt;
+&lt;style&gt;
+        /* Animación suave para los checks */
+        .check-item { transition: all 0.3s ease; }
+        .completed { opacity: 0.6; transform: scale(0.98); }
+        .completed .status-icon { color: #10b981; } /* Emerald green */
+        .completed .status-icon::before { content: "\f058"; } /* fa-circle-check */
+    &lt;/style&gt;
+&lt;!-- Contenedor Principal --&gt;
+&lt;div class="max-w-5xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border-t-8 border-food-orange relative"&gt;&lt;!-- Elementos decorativos de fondo --&gt; &lt;i class="fa-solid fa-pizza-slice absolute text-8xl text-food-light opacity-50 -top-6 -right-6 -z-0 rotate-12"&gt;&lt;/i&gt; &lt;!-- Cabecera --&gt;&lt;header class="bg-gradient-to-r from-food-navy to-food-darkblue p-8 md:p-12 text-center text-white relative z-10 shadow-md"&gt;&lt;span class="bg-food-yellow text-food-navy text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block shadow-sm"&gt;Proyecto Final&lt;/span&gt;
+&lt;h1 class="text-4xl md:text-5xl font-extrabold mb-4 flex justify-center items-center gap-4"&gt;&lt;i class="fa-solid fa-truck-fast text-food-yellow animate-bounce"&gt;&lt;/i&gt; ¡Bienvenido al equipo, Chef!&lt;/h1&gt;
+&lt;p class="text-lg md:text-xl font-light max-w-2xl mx-auto"&gt;Tu misión: Diseñar el Food Truck más rentable de la ciudad y convencer a los inversores.&lt;/p&gt;
+&lt;/header&gt;&lt;main class="p-6 md:p-12"&gt;&lt;!-- Introducción --&gt;
+&lt;div class="bg-blue-50 border-l-4 border-food-blue p-6 rounded-r-xl mb-10 shadow-sm"&gt;
+&lt;p class="text-lg mb-3"&gt;Ha llegado el momento de arrancar motores. Has demostrado que sabes moverte en la cocina, pero ahora toca el reto definitivo: &lt;strong&gt;lograr que los inversores apuesten por tu Food Truck.&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="text-lg"&gt;Tu misión final no es rellenar una ficha aburrida. Vas a crear un &lt;strong&gt;Dossier Interactivo de Inversión&lt;/strong&gt; profesional usando &lt;strong&gt;Canva&lt;/strong&gt;. En él demostrarás que tu negocio es el mejor porque controlas cada porción y cada céntimo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Interacción: Checklist del Dossier --&gt;
+&lt;h2 class="text-3xl font-bold mb-6 flex items-center gap-3 text-food-orange"&gt;&lt;i class="fa-solid fa-list-check"&gt;&lt;/i&gt; ¿Qué debe incluir tu Dossier?&lt;/h2&gt;
+&lt;p class="mb-6 text-gray-600 italic"&gt;Haz clic en cada paso cuando hayas entendido tu misión para ir completando tu barra de progreso.&lt;/p&gt;
+&lt;!-- Barra de progreso --&gt;
+&lt;div class="w-full bg-gray-200 rounded-full h-4 mb-8 overflow-hidden shadow-inner"&gt;
+&lt;div id="progressBar" class="bg-food-yellow h-4 rounded-full transition-all duration-500 ease-out" style="width: 0%;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12" id="checklist"&gt;&lt;!-- Tarjeta 1 --&gt;
+&lt;div class="check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group"&gt;
+&lt;div class="flex justify-between items-start mb-4"&gt;
+&lt;div class="w-12 h-12 bg-orange-100 text-food-orange rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform"&gt;&lt;i class="fa-solid fa-id-card"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;i class="fa-regular fa-circle status-icon text-2xl text-gray-300"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;h3 class="text-xl font-bold mb-2"&gt;1. Tu Identidad&lt;/h3&gt;
+&lt;p class="text-gray-600"&gt;El nombre y el &lt;strong&gt;logo&lt;/strong&gt; de tu furgoneta. ¡Haz que sea inolvidable y profesional!&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 2 --&gt;
+&lt;div class="check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group"&gt;
+&lt;div class="flex justify-between items-start mb-4"&gt;
+&lt;div class="w-12 h-12 bg-red-100 text-food-red rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform"&gt;&lt;i class="fa-solid fa-utensils"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;i class="fa-regular fa-circle status-icon text-2xl text-gray-300"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;h3 class="text-xl font-bold mb-2"&gt;2. El Menú Visual&lt;/h3&gt;
+&lt;p class="text-gray-600"&gt;Usarás gráficos de comida. Arrastrando porciones de pizza o tarta, demostrarás de forma visual qué es una &lt;strong&gt;fracción equivalente&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 3 --&gt;
+&lt;div class="check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group"&gt;
+&lt;div class="flex justify-between items-start mb-4"&gt;
+&lt;div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform"&gt;&lt;i class="fa-solid fa-recycle"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;i class="fa-regular fa-circle status-icon text-2xl text-gray-300"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;h3 class="text-xl font-bold mb-2"&gt;3. "Cero Desperdicio"&lt;/h3&gt;
+&lt;p class="text-gray-600"&gt;Demostrarás con sumas y restas de fracciones cómo aprovechas cada ingrediente para que no sobre absolutamente nada.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Tarjeta 4 --&gt;
+&lt;div class="check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group"&gt;
+&lt;div class="flex justify-between items-start mb-4"&gt;
+&lt;div class="w-12 h-12 bg-blue-100 text-food-darkblue rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform"&gt;&lt;i class="fa-solid fa-coins"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;i class="fa-regular fa-circle status-icon text-2xl text-gray-300"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;h3 class="text-xl font-bold mb-2"&gt;4. Presupuesto&lt;/h3&gt;
+&lt;p class="text-gray-600"&gt;El coste de tus platos calculado y justificado. Los inversores quieren ver que los números cuadran.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Sección ¿Por qué Canva? --&gt;
+&lt;div class="bg-gray-50 rounded-3xl p-8 border border-gray-200 mb-12"&gt;
+&lt;h2 class="text-2xl font-bold mb-6 text-center"&gt;💻 Tu herramienta de trabajo: Canva&lt;/h2&gt;
+&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-6"&gt;
+&lt;div class="text-center p-4"&gt;&lt;i class="fa-solid fa-wand-magic-sparkles text-4xl text-purple-500 mb-4"&gt;&lt;/i&gt;
+&lt;h4 class="font-bold mb-2"&gt;Diseño Profesional&lt;/h4&gt;
+&lt;p class="text-sm text-gray-600"&gt;Plantillas increíbles para que tu proyecto parezca el de un emprendedor adulto.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="text-center p-4"&gt;&lt;i class="fa-solid fa-shapes text-4xl text-purple-500 mb-4"&gt;&lt;/i&gt;
+&lt;h4 class="font-bold mb-2"&gt;Mates Visuales&lt;/h4&gt;
+&lt;p class="text-sm text-gray-600"&gt;Sin miedo a la hoja en blanco. Arrastra ingredientes y entiende las fracciones viéndolas con tus propios ojos.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="text-center p-4"&gt;&lt;i class="fa-solid fa-cloud text-4xl text-purple-500 mb-4"&gt;&lt;/i&gt;
+&lt;h4 class="font-bold mb-2"&gt;100% en la Nube&lt;/h4&gt;
+&lt;p class="text-sm text-gray-600"&gt;Todo se guarda solo. Empieza en el aula de apoyo y sigue en tu clase sin perder ni un detalle.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Cita motivadora y Botón de acción --&gt;
+&lt;div class="text-center bg-food-navy text-white p-8 rounded-2xl shadow-xl relative overflow-hidden"&gt;&lt;i class="fa-solid fa-quote-left absolute text-6xl text-white opacity-10 top-4 left-4"&gt;&lt;/i&gt;
+&lt;p class="text-xl md:text-2xl font-light italic mb-8 relative z-10 leading-relaxed"&gt;"En este negocio, las fracciones no son números... &lt;br&gt;&lt;span class="font-bold text-food-yellow"&gt;¡son porciones de éxito!&lt;/span&gt;"&lt;/p&gt;
+&lt;button id="acceptBtn" class="bg-food-red hover:bg-red-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transform transition hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center gap-3 mx-auto text-lg" disabled="disabled"&gt; &lt;i class="fa-solid fa-lock" id="btnIcon"&gt;&lt;/i&gt; &lt;span id="btnText"&gt;Completa los 4 pasos primero&lt;/span&gt; &lt;/button&gt;&lt;/div&gt;
+&lt;!-- Mensaje de éxito oculto inicialmente --&gt;
+&lt;div id="successMessage" class="hidden mt-8 bg-green-100 border-2 border-green-500 text-green-800 p-6 rounded-2xl text-center transform transition-all scale-95 opacity-0"&gt;
+&lt;h3 class="text-2xl font-bold mb-2"&gt;&lt;i class="fa-solid fa-rocket animate-pulse mr-2"&gt;&lt;/i&gt; ¡Reto Aceptado!&lt;/h3&gt;
+&lt;p&gt;Abre Canva, crea tu cuenta o inicia sesión, y empieza a diseñar el logo de tu Food Truck. ¡A por todas, Chef!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/main&gt;&lt;/div&gt;
+&lt;!-- Script para la interactividad --&gt;
+&lt;p&gt;
+&lt;script&gt;
+        document.addEventListener('DOMContentLoaded', () =&gt; {
+            const items = document.querySelectorAll('.check-item');
+            const progressBar = document.getElementById('progressBar');
+            const acceptBtn = document.getElementById('acceptBtn');
+            const btnIcon = document.getElementById('btnIcon');
+            const btnText = document.getElementById('btnText');
+            const successMessage = document.getElementById('successMessage');
+            
+            let completedCount = 0;
+            const totalItems = items.length;
+
+            items.forEach(item =&gt; {
+                item.addEventListener('click', function() {
+                    // Si ya está completado, no hacer nada
+                    if (this.classList.contains('completed')) return;
+                    
+                    // Marcar como completado
+                    this.classList.add('completed');
+                    this.classList.replace('border-gray-100', 'border-green-200');
+                    this.classList.replace('hover:border-food-yellow', 'hover:border-green-300');
+                    
+                    completedCount++;
+                    
+                    // Actualizar barra de progreso
+                    const progressPercentage = (completedCount / totalItems) * 100;
+                    progressBar.style.width = `${progressPercentage}%`;
+
+                    // Si todos están completados, habilitar el botón
+                    if (completedCount === totalItems) {
+                        acceptBtn.removeAttribute('disabled');
+                        acceptBtn.classList.replace('bg-food-red', 'bg-food-yellow');
+                        acceptBtn.classList.replace('hover:bg-red-600', 'hover:bg-yellow-500');
+                        acceptBtn.classList.replace('text-white', 'text-food-navy');
+                        btnIcon.classList.replace('fa-lock', 'fa-fire-burner');
+                        btnText.textContent = "¡Aceptar el Reto y Empezar!";
+                    }
+                });
+            });
+
+            // Acción del botón final
+            acceptBtn.addEventListener('click', () =&gt; {
+                successMessage.classList.remove('hidden');
+                // Pequeño timeout para permitir que el display:block se aplique antes de animar
+                setTimeout(() =&gt; {
+                    successMessage.classList.remove('scale-95', 'opacity-0');
+                    successMessage.classList.add('scale-100', 'opacity-100');
+                }, 50);
+                
+                // Ocultar el botón principal para limpiar la vista
+                acceptBtn.parentElement.classList.add('hidden');
+            });
+        });
+    &lt;/script&gt;
+&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260509121705569906","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;!-- Tailwind CSS para el diseño --&gt;\n&lt;p&gt;\n&lt;script src=\"https://cdn.tailwindcss.com\"&gt;&lt;/script&gt;\n&lt;/p&gt;\n&lt;!-- Font Awesome para los iconos --&gt;\n&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;!-- Google Fonts para una tipografía moderna --&gt;\n&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;p&gt;\n&lt;script&gt;\n        tailwind.config = {\n            theme: {\n                extend: {\n                    fontFamily: {\n                        sans: ['Poppins', 'sans-serif'],\n                    },\n                    colors: {\n                        food: {\n                            red: '#e63946',\n                            light: '#f1faee',\n                            blue: '#a8dadc',\n                            darkblue: '#457b9d',\n                            navy: '#1d3557',\n                            yellow: '#f4a261',\n                            orange: '#e76f51'\n                        }\n                    }\n                }\n            }\n        }\n    &lt;/script&gt;\n&lt;/p&gt;\n&lt;style&gt;\n        /* Animación suave para los checks */\n        .check-item { transition: all 0.3s ease; }\n        .completed { opacity: 0.6; transform: scale(0.98); }\n        .completed .status-icon { color: #10b981; } /* Emerald green */\n        .completed .status-icon::before { content: \"\\f058\"; } /* fa-circle-check */\n    &lt;/style&gt;\n&lt;!-- Contenedor Principal --&gt;\n&lt;div class=\"max-w-5xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border-t-8 border-food-orange relative\"&gt;&lt;!-- Elementos decorativos de fondo --&gt; &lt;i class=\"fa-solid fa-pizza-slice absolute text-8xl text-food-light opacity-50 -top-6 -right-6 -z-0 rotate-12\"&gt;&lt;/i&gt; &lt;!-- Cabecera --&gt;&lt;header class=\"bg-gradient-to-r from-food-navy to-food-darkblue p-8 md:p-12 text-center text-white relative z-10 shadow-md\"&gt;&lt;span class=\"bg-food-yellow text-food-navy text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block shadow-sm\"&gt;Proyecto Final&lt;/span&gt;\n&lt;h1 class=\"text-4xl md:text-5xl font-extrabold mb-4 flex justify-center items-center gap-4\"&gt;&lt;i class=\"fa-solid fa-truck-fast text-food-yellow animate-bounce\"&gt;&lt;/i&gt; ¡Bienvenido al equipo, Chef!&lt;/h1&gt;\n&lt;p class=\"text-lg md:text-xl font-light max-w-2xl mx-auto\"&gt;Tu misión: Diseñar el Food Truck más rentable de la ciudad y convencer a los inversores.&lt;/p&gt;\n&lt;/header&gt;&lt;main class=\"p-6 md:p-12\"&gt;&lt;!-- Introducción --&gt;\n&lt;div class=\"bg-blue-50 border-l-4 border-food-blue p-6 rounded-r-xl mb-10 shadow-sm\"&gt;\n&lt;p class=\"text-lg mb-3\"&gt;Ha llegado el momento de arrancar motores. Has demostrado que sabes moverte en la cocina, pero ahora toca el reto definitivo: &lt;strong&gt;lograr que los inversores apuesten por tu Food Truck.&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=\"text-lg\"&gt;Tu misión final no es rellenar una ficha aburrida. Vas a crear un &lt;strong&gt;Dossier Interactivo de Inversión&lt;/strong&gt; profesional usando &lt;strong&gt;Canva&lt;/strong&gt;. En él demostrarás que tu negocio es el mejor porque controlas cada porción y cada céntimo.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Interacción: Checklist del Dossier --&gt;\n&lt;h2 class=\"text-3xl font-bold mb-6 flex items-center gap-3 text-food-orange\"&gt;&lt;i class=\"fa-solid fa-list-check\"&gt;&lt;/i&gt; ¿Qué debe incluir tu Dossier?&lt;/h2&gt;\n&lt;p class=\"mb-6 text-gray-600 italic\"&gt;Haz clic en cada paso cuando hayas entendido tu misión para ir completando tu barra de progreso.&lt;/p&gt;\n&lt;!-- Barra de progreso --&gt;\n&lt;div class=\"w-full bg-gray-200 rounded-full h-4 mb-8 overflow-hidden shadow-inner\"&gt;\n&lt;div id=\"progressBar\" class=\"bg-food-yellow h-4 rounded-full transition-all duration-500 ease-out\" style=\"width: 0%;\"&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"grid grid-cols-1 md:grid-cols-2 gap-6 mb-12\" id=\"checklist\"&gt;&lt;!-- Tarjeta 1 --&gt;\n&lt;div class=\"check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group\"&gt;\n&lt;div class=\"flex justify-between items-start mb-4\"&gt;\n&lt;div class=\"w-12 h-12 bg-orange-100 text-food-orange rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform\"&gt;&lt;i class=\"fa-solid fa-id-card\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;i class=\"fa-regular fa-circle status-icon text-2xl text-gray-300\"&gt;&lt;/i&gt;&lt;/div&gt;\n&lt;h3 class=\"text-xl font-bold mb-2\"&gt;1. Tu Identidad&lt;/h3&gt;\n&lt;p class=\"text-gray-600\"&gt;El nombre y el &lt;strong&gt;logo&lt;/strong&gt; de tu furgoneta. ¡Haz que sea inolvidable y profesional!&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 2 --&gt;\n&lt;div class=\"check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group\"&gt;\n&lt;div class=\"flex justify-between items-start mb-4\"&gt;\n&lt;div class=\"w-12 h-12 bg-red-100 text-food-red rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform\"&gt;&lt;i class=\"fa-solid fa-utensils\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;i class=\"fa-regular fa-circle status-icon text-2xl text-gray-300\"&gt;&lt;/i&gt;&lt;/div&gt;\n&lt;h3 class=\"text-xl font-bold mb-2\"&gt;2. El Menú Visual&lt;/h3&gt;\n&lt;p class=\"text-gray-600\"&gt;Usarás gráficos de comida. Arrastrando porciones de pizza o tarta, demostrarás de forma visual qué es una &lt;strong&gt;fracción equivalente&lt;/strong&gt;.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 3 --&gt;\n&lt;div class=\"check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group\"&gt;\n&lt;div class=\"flex justify-between items-start mb-4\"&gt;\n&lt;div class=\"w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform\"&gt;&lt;i class=\"fa-solid fa-recycle\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;i class=\"fa-regular fa-circle status-icon text-2xl text-gray-300\"&gt;&lt;/i&gt;&lt;/div&gt;\n&lt;h3 class=\"text-xl font-bold mb-2\"&gt;3. \"Cero Desperdicio\"&lt;/h3&gt;\n&lt;p class=\"text-gray-600\"&gt;Demostrarás con sumas y restas de fracciones cómo aprovechas cada ingrediente para que no sobre absolutamente nada.&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Tarjeta 4 --&gt;\n&lt;div class=\"check-item bg-white border-2 border-gray-100 rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:border-food-yellow group\"&gt;\n&lt;div class=\"flex justify-between items-start mb-4\"&gt;\n&lt;div class=\"w-12 h-12 bg-blue-100 text-food-darkblue rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform\"&gt;&lt;i class=\"fa-solid fa-coins\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;i class=\"fa-regular fa-circle status-icon text-2xl text-gray-300\"&gt;&lt;/i&gt;&lt;/div&gt;\n&lt;h3 class=\"text-xl font-bold mb-2\"&gt;4. Presupuesto&lt;/h3&gt;\n&lt;p class=\"text-gray-600\"&gt;El coste de tus platos calculado y justificado. Los inversores quieren ver que los números cuadran.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Sección ¿Por qué Canva? --&gt;\n&lt;div class=\"bg-gray-50 rounded-3xl p-8 border border-gray-200 mb-12\"&gt;\n&lt;h2 class=\"text-2xl font-bold mb-6 text-center\"&gt;💻 Tu herramienta de trabajo: Canva&lt;/h2&gt;\n&lt;div class=\"grid grid-cols-1 md:grid-cols-3 gap-6\"&gt;\n&lt;div class=\"text-center p-4\"&gt;&lt;i class=\"fa-solid fa-wand-magic-sparkles text-4xl text-purple-500 mb-4\"&gt;&lt;/i&gt;\n&lt;h4 class=\"font-bold mb-2\"&gt;Diseño Profesional&lt;/h4&gt;\n&lt;p class=\"text-sm text-gray-600\"&gt;Plantillas increíbles para que tu proyecto parezca el de un emprendedor adulto.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"text-center p-4\"&gt;&lt;i class=\"fa-solid fa-shapes text-4xl text-purple-500 mb-4\"&gt;&lt;/i&gt;\n&lt;h4 class=\"font-bold mb-2\"&gt;Mates Visuales&lt;/h4&gt;\n&lt;p class=\"text-sm text-gray-600\"&gt;Sin miedo a la hoja en blanco. Arrastra ingredientes y entiende las fracciones viéndolas con tus propios ojos.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"text-center p-4\"&gt;&lt;i class=\"fa-solid fa-cloud text-4xl text-purple-500 mb-4\"&gt;&lt;/i&gt;\n&lt;h4 class=\"font-bold mb-2\"&gt;100% en la Nube&lt;/h4&gt;\n&lt;p class=\"text-sm text-gray-600\"&gt;Todo se guarda solo. Empieza en el aula de apoyo y sigue en tu clase sin perder ni un detalle.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Cita motivadora y Botón de acción --&gt;\n&lt;div class=\"text-center bg-food-navy text-white p-8 rounded-2xl shadow-xl relative overflow-hidden\"&gt;&lt;i class=\"fa-solid fa-quote-left absolute text-6xl text-white opacity-10 top-4 left-4\"&gt;&lt;/i&gt;\n&lt;p class=\"text-xl md:text-2xl font-light italic mb-8 relative z-10 leading-relaxed\"&gt;\"En este negocio, las fracciones no son números... &lt;br /&gt;&lt;span class=\"font-bold text-food-yellow\"&gt;¡son porciones de éxito!&lt;/span&gt;\"&lt;/p&gt;\n&lt;button id=\"acceptBtn\" class=\"bg-food-red hover:bg-red-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transform transition hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center gap-3 mx-auto text-lg\" disabled=\"disabled\"&gt; &lt;i class=\"fa-solid fa-lock\" id=\"btnIcon\"&gt;&lt;/i&gt; &lt;span id=\"btnText\"&gt;Completa los 4 pasos primero&lt;/span&gt; &lt;/button&gt;&lt;/div&gt;\n&lt;!-- Mensaje de éxito oculto inicialmente --&gt;\n&lt;div id=\"successMessage\" class=\"hidden mt-8 bg-green-100 border-2 border-green-500 text-green-800 p-6 rounded-2xl text-center transform transition-all scale-95 opacity-0\"&gt;\n&lt;h3 class=\"text-2xl font-bold mb-2\"&gt;&lt;i class=\"fa-solid fa-rocket animate-pulse mr-2\"&gt;&lt;/i&gt; ¡Reto Aceptado!&lt;/h3&gt;\n&lt;p&gt;Abre Canva, crea tu cuenta o inicia sesión, y empieza a diseñar el logo de tu Food Truck. ¡A por todas, Chef!&lt;/p&gt;\n&lt;/div&gt;\n&lt;/main&gt;&lt;/div&gt;\n&lt;!-- Script para la interactividad --&gt;\n&lt;p&gt;\n&lt;script&gt;\n        document.addEventListener('DOMContentLoaded', () =&gt; {\n            const items = document.querySelectorAll('.check-item');\n            const progressBar = document.getElementById('progressBar');\n            const acceptBtn = document.getElementById('acceptBtn');\n            const btnIcon = document.getElementById('btnIcon');\n            const btnText = document.getElementById('btnText');\n            const successMessage = document.getElementById('successMessage');\n            \n            let completedCount = 0;\n            const totalItems = items.length;\n\n            items.forEach(item =&gt; {\n                item.addEventListener('click', function() {\n                    // Si ya está completado, no hacer nada\n                    if (this.classList.contains('completed')) return;\n                    \n                    // Marcar como completado\n                    this.classList.add('completed');\n                    this.classList.replace('border-gray-100', 'border-green-200');\n                    this.classList.replace('hover:border-food-yellow', 'hover:border-green-300');\n                    \n                    completedCount++;\n                    \n                    // Actualizar barra de progreso\n                    const progressPercentage = (completedCount / totalItems) * 100;\n                    progressBar.style.width = `${progressPercentage}%`;\n\n                    // Si todos están completados, habilitar el botón\n                    if (completedCount === totalItems) {\n                        acceptBtn.removeAttribute('disabled');\n                        acceptBtn.classList.replace('bg-food-red', 'bg-food-yellow');\n                        acceptBtn.classList.replace('hover:bg-red-600', 'hover:bg-yellow-500');\n                        acceptBtn.classList.replace('text-white', 'text-food-navy');\n                        btnIcon.classList.replace('fa-lock', 'fa-fire-burner');\n                        btnText.textContent = \"¡Aceptar el Reto y Empezar!\";\n                    }\n                });\n            });\n\n            // Acción del botón final\n            acceptBtn.addEventListener('click', () =&gt; {\n                successMessage.classList.remove('hidden');\n                // Pequeño timeout para permitir que el display:block se aplique antes de animar\n                setTimeout(() =&gt; {\n                    successMessage.classList.remove('scale-95', 'opacity-0');\n                    successMessage.classList.add('scale-100', 'opacity-100');\n                }, 50);\n                \n                // Ocultar el botón principal para limpiar la vista\n                acceptBtn.parentElement.classList.add('hidden');\n            });\n        });\n    &lt;/script&gt;\n&lt;/p&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260511102121CZJABT</odePageId><odeParentPageId>20260511102121YLXMBC</odeParentPageId><pageName>INSTRUMENTOS DE EVALUACIÓN</pageName><odeNavStructureOrder>6</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>INSTRUMENTOS DE EVALUACIÓN</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>INICIO</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121CZJABT</odePageId><odeBlockId>20260511102121KBYHPH</odeBlockId><blockName>INSTRUMENTOS DE EVALUACIÓN</blockName><iconName>icon_task</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121CZJABT</odePageId><odeBlockId>20260511102121KBYHPH</odeBlockId><odeIdeviceId>20260509122244352P98</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;style&gt;
+        :root {
+            --primary: #2563EB; /* Azul vibrante */
+            --bg-color: #F8FAFC;
+            --text-main: #1E293B;
+            --text-muted: #64748B;
+            
+            /* Colores de niveles de logro */
+            --nivel4-bg: #D1FAE5; /* Verde muy claro */
+            --nivel4-border: #10B981;
+            
+            --nivel3-bg: #FEF3C7; /* Amarillo muy claro */
+            --nivel3-border: #F59E0B;
+            
+            --nivel2-bg: #FFEDD5; /* Naranja muy claro */
+            --nivel2-border: #F97316;
+            
+            --nivel1-bg: #FEE2E2; /* Rojo muy claro */
+            --nivel1-border: #EF4444;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Nunito', sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.5; padding: 20px; }
+        
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 40px; border-radius: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        
+        /* Header */
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.2rem; color: var(--text-main); margin-bottom: 10px; font-weight: 800; }
+        .subtitle { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 10px; }
+        
+        .student-info { display: flex; justify-content: center; gap: 30px; margin-bottom: 30px; flex-wrap: wrap; }
+        .input-group { display: flex; flex-direction: column; align-items: flex-start; }
+        .input-group label { font-weight: 700; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 5px; }
+        .input-group input { padding: 10px 15px; border: 2px solid #E2E8F0; border-radius: 10px; font-family: inherit; font-size: 1rem; width: 250px; outline: none; transition: border-color 0.3s;}
+        .input-group input:focus { border-color: var(--primary); }
+
+        /* Tabla Rúbrica */
+        .rubric-table { width: 100%; border-collapse: separate; border-spacing: 0; border: 2px solid #E2E8F0; border-radius: 16px; overflow: hidden; }
+        
+        th, td { padding: 20px 15px; text-align: left; vertical-align: top; border-bottom: 1px solid #E2E8F0; border-right: 1px solid #E2E8F0; }
+        th:last-child, td:last-child { border-right: none; }
+        tr:last-child td { border-bottom: none; }
+
+        /* Cabeceras de columna */
+        th { background-color: #F1F5F9; font-weight: 800; font-size: 1.1rem; text-align: center; }
+        th.criterion-col { width: 20%; text-align: left; background-color: white; color: var(--primary); }
+        
+        /* Estilos de cabeceras de nivel */
+        .level-header { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+        .level-header i { font-size: 1.5rem; margin-bottom: 5px; }
+        .level-4 th { border-top: 4px solid var(--nivel4-border); color: #047857; }
+        .level-3 th { border-top: 4px solid var(--nivel3-border); color: #B45309; }
+        .level-2 th { border-top: 4px solid var(--nivel2-border); color: #C2410C; }
+        .level-1 th { border-top: 4px solid var(--nivel1-border); color: #B91C1C; }
+
+        /* Celdas de Criterio */
+        .criterion-title { font-weight: 800; font-size: 1.1rem; margin-bottom: 5px; display: flex; align-items: center; gap: 8px; }
+        .criterion-desc { font-size: 0.85rem; color: var(--text-muted); }
+
+        /* Celdas interactivas (descriptores) */
+        .descriptor-cell { cursor: pointer; transition: all 0.2s ease; border-radius: 8px; margin: 2px; }
+        .descriptor-cell:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        
+        /* Estados seleccionados */
+        .selected-4 { background-color: var(--nivel4-bg) !important; border: 2px solid var(--nivel4-border) !important; color: #064E3B; font-weight: 600; }
+        .selected-3 { background-color: var(--nivel3-bg) !important; border: 2px solid var(--nivel3-border) !important; color: #78350F; font-weight: 600; }
+        .selected-2 { background-color: var(--nivel2-bg) !important; border: 2px solid var(--nivel2-border) !important; color: #7C2D12; font-weight: 600; }
+        .selected-1 { background-color: var(--nivel1-bg) !important; border: 2px solid var(--nivel1-border) !important; color: #7F1D1D; font-weight: 600; }
+
+        /* Contenido del descriptor */
+        .desc-content { font-size: 0.95rem; }
+
+        /* Botones */
+        .actions { text-align: center; margin-top: 30px; }
+        .btn { background: var(--text-muted); color: white; border: none; padding: 12px 24px; border-radius: 12px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background 0.3s; font-family: inherit; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 6px rgba(100, 116, 139, 0.3); }
+        .btn:hover { background: #475569; }
+    &lt;/style&gt;
+&lt;div class="container"&gt;&lt;header&gt;
+&lt;h1&gt;Rúbrica de Evaluación del Proyecto&lt;/h1&gt;
+&lt;p class="subtitle"&gt;&lt;i class="fa-solid fa-utensils"&gt;&lt;/i&gt; Situación de Aprendizaje: Nuestro Restaurante Sostenible&lt;/p&gt;
+&lt;div class="student-info"&gt;
+&lt;div class="input-group"&gt;&lt;label for="nombre"&gt;Nombre del Alumno/a:&lt;/label&gt; &lt;input type="text" id="nombre" placeholder="Escribe el nombre..."&gt;&lt;/div&gt;
+&lt;div class="input-group"&gt;&lt;label for="fecha"&gt;Fecha de Evaluación:&lt;/label&gt; &lt;input type="date" id="fecha"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+&lt;table class="rubric-table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class="criterion-col"&gt;Criterio / Indicador&lt;/th&gt;
+&lt;th style="border-top: 4px solid var(--nivel4-border); color: #047857;"&gt;
+&lt;div class="level-header"&gt;&lt;i class="fa-solid fa-star"&gt;&lt;/i&gt; Nivel 4: Excelente&lt;/div&gt;
+&lt;/th&gt;
+&lt;th style="border-top: 4px solid var(--nivel3-border); color: #b45309;"&gt;
+&lt;div class="level-header"&gt;&lt;i class="fa-solid fa-check"&gt;&lt;/i&gt; Nivel 3: Conseguido&lt;/div&gt;
+&lt;/th&gt;
+&lt;th style="border-top: 4px solid var(--nivel2-border); color: #c2410c;"&gt;
+&lt;div class="level-header"&gt;&lt;i class="fa-solid fa-spinner"&gt;&lt;/i&gt; Nivel 2: En Proceso&lt;/div&gt;
+&lt;/th&gt;
+&lt;th style="border-top: 4px solid var(--nivel1-border); color: #b91c1c;"&gt;
+&lt;div class="level-header"&gt;&lt;i class="fa-solid fa-hand-holding-hand"&gt;&lt;/i&gt; Nivel 1: Necesita Apoyo&lt;/div&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;!-- Fila 1 --&gt;
+&lt;tr data-row="1"&gt;
+&lt;td&gt;
+&lt;div class="criterion-title"&gt;&lt;i class="fa-solid fa-chart-pie"&gt;&lt;/i&gt; Representación Matemática&lt;/div&gt;
+&lt;div class="criterion-desc"&gt;Criterio 4.1. (Fracciones y modelización).&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 1, 4)"&gt;
+&lt;div class="desc-content"&gt;Modeliza y representa las fracciones en el menú de forma totalmente precisa, usando las herramientas de Canva o el material manipulativo sin dificultad.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 1, 3)"&gt;
+&lt;div class="desc-content"&gt;Representa las fracciones correctamente en su mayoría, necesitando ayuda puntual con la herramienta digital o analógica.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 1, 2)"&gt;
+&lt;div class="desc-content"&gt;Logra representar algunas fracciones básicas, pero requiere guía constante de la docente o del "Ayudante TIC".&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 1, 1)"&gt;
+&lt;div class="desc-content"&gt;Aún le cuesta representar el concepto de fracción y requiere el uso exclusivo de apoyos visuales y material físico de forma dirigida.&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Fila 2 --&gt;
+&lt;tr data-row="2"&gt;
+&lt;td&gt;
+&lt;div class="criterion-title"&gt;&lt;i class="fa-solid fa-leaf"&gt;&lt;/i&gt; Resolución de Problemas&lt;/div&gt;
+&lt;div class="criterion-desc"&gt;Criterio 1.1. (Gestión Zero Waste).&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 2, 4)"&gt;
+&lt;div class="desc-content"&gt;Comprende el cálculo de costes para evitar desperdicios y completa la plantilla de cálculo con total autonomía.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 2, 3)"&gt;
+&lt;div class="desc-content"&gt;Comprende el problema de costes y usa la calculadora o plantilla con éxito, aunque necesita alguna aclaración.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 2, 2)"&gt;
+&lt;div class="desc-content"&gt;Participa en la resolución del problema y cálculo de costes, pero se pierde en el proceso y requiere apoyo directo.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 2, 1)"&gt;
+&lt;div class="desc-content"&gt;Muestra dificultades para comprender el problema cotidiano y requiere adaptación significativa de la tarea.&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Fila 3 --&gt;
+&lt;tr data-row="3"&gt;
+&lt;td&gt;
+&lt;div class="criterion-title"&gt;&lt;i class="fa-solid fa-bullhorn"&gt;&lt;/i&gt; Comunicación y Exposición&lt;/div&gt;
+&lt;div class="criterion-desc"&gt;Criterio 8.1. (Pitch Final).&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 3, 4)"&gt;
+&lt;div class="desc-content"&gt;Expone el proyecto con claridad usando el soporte digital (PDI/Canva) o analógico, comunicando la información adecuadamente.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 3, 3)"&gt;
+&lt;div class="desc-content"&gt;Expone sus ideas de forma comprensible apoyándose en la presentación, aunque con algunas dudas.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 3, 2)"&gt;
+&lt;div class="desc-content"&gt;Participa en la exposición, pero depende de la lectura literal del guion o del apoyo continuo de sus compañeros.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 3, 1)"&gt;
+&lt;div class="desc-content"&gt;Muestra bloqueo o ansiedad significativa en la exposición, logrando participar solo mediante adaptaciones muy específicas.&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Fila 4 --&gt;
+&lt;tr data-row="4"&gt;
+&lt;td&gt;
+&lt;div class="criterion-title"&gt;&lt;i class="fa-solid fa-laptop-medical"&gt;&lt;/i&gt; Autonomía Digital y Emocional&lt;/div&gt;
+&lt;div class="criterion-desc"&gt;Competencia Transversal (Plan B analógico).&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 4, 4)"&gt;
+&lt;div class="desc-content"&gt;Maneja Canva y credenciales con tarjetas visuales de forma autónoma. Gestiona la espera positivamente.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 4, 3)"&gt;
+&lt;div class="desc-content"&gt;Accede a las herramientas con su tarjeta visual y mantiene la calma tras una breve intervención si hay fallos.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 4, 2)"&gt;
+&lt;div class="desc-content"&gt;Requiere ayuda frecuente para acceder y tiende a desregularse ante fallos técnicos, necesitando recurrir al Plan B.&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="descriptor-cell" onclick="selectCell(this, 4, 1)"&gt;
+&lt;div class="desc-content"&gt;Depende totalmente del adulto para la gestión digital y muestra alto nivel de bloqueo que impide el avance sin apoyo.&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="actions"&gt;&lt;button class="btn" onclick="resetRubric()"&gt;&lt;i class="fa-solid fa-rotate-right"&gt;&lt;/i&gt; Borrar Selección&lt;/button&gt;
+&lt;p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;"&gt;*Haz clic en las celdas para seleccionar el nivel de logro del alumno/a.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;script&gt;
+    // Función para manejar la selección de celdas
+    function selectCell(clickedCell, rowId, level) {
+        // Encontrar la fila correspondiente
+        const row = document.querySelector(`tr[data-row="${rowId}"]`);
+        
+        // Quitar las clases de selección de todas las celdas descriptivas de esa fila
+        const cells = row.querySelectorAll('.descriptor-cell');
+        cells.forEach(cell =&gt; {
+            cell.classList.remove('selected-4', 'selected-3', 'selected-2', 'selected-1');
+            cell.style.border = 'none'; // resetear borde en linea si lo hubiera
+        });
+        
+        // Añadir la clase correspondiente al nivel seleccionado
+        clickedCell.classList.add(`selected-${level}`);
+    }
+
+    // Función para borrar toda la selección
+    function resetRubric() {
+        // Limpiar inputs
+        document.getElementById('nombre').value = '';
+        document.getElementById('fecha').value = '';
+        
+        // Limpiar celdas
+        const cells = document.querySelectorAll('.descriptor-cell');
+        cells.forEach(cell =&gt; {
+            cell.classList.remove('selected-4', 'selected-3', 'selected-2', 'selected-1');
+        });
+    }
+&lt;/script&gt;
+&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260509122244352P98","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;/p&gt;\n&lt;style&gt;\n        :root {\n            --primary: #2563EB; /* Azul vibrante */\n            --bg-color: #F8FAFC;\n            --text-main: #1E293B;\n            --text-muted: #64748B;\n            \n            /* Colores de niveles de logro */\n            --nivel4-bg: #D1FAE5; /* Verde muy claro */\n            --nivel4-border: #10B981;\n            \n            --nivel3-bg: #FEF3C7; /* Amarillo muy claro */\n            --nivel3-border: #F59E0B;\n            \n            --nivel2-bg: #FFEDD5; /* Naranja muy claro */\n            --nivel2-border: #F97316;\n            \n            --nivel1-bg: #FEE2E2; /* Rojo muy claro */\n            --nivel1-border: #EF4444;\n        }\n\n        * { box-sizing: border-box; margin: 0; padding: 0; }\n        body { font-family: 'Nunito', sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.5; padding: 20px; }\n        \n        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 40px; border-radius: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }\n        \n        /* Header */\n        header { text-align: center; margin-bottom: 40px; }\n        h1 { font-size: 2.2rem; color: var(--text-main); margin-bottom: 10px; font-weight: 800; }\n        .subtitle { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 10px; }\n        \n        .student-info { display: flex; justify-content: center; gap: 30px; margin-bottom: 30px; flex-wrap: wrap; }\n        .input-group { display: flex; flex-direction: column; align-items: flex-start; }\n        .input-group label { font-weight: 700; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 5px; }\n        .input-group input { padding: 10px 15px; border: 2px solid #E2E8F0; border-radius: 10px; font-family: inherit; font-size: 1rem; width: 250px; outline: none; transition: border-color 0.3s;}\n        .input-group input:focus { border-color: var(--primary); }\n\n        /* Tabla Rúbrica */\n        .rubric-table { width: 100%; border-collapse: separate; border-spacing: 0; border: 2px solid #E2E8F0; border-radius: 16px; overflow: hidden; }\n        \n        th, td { padding: 20px 15px; text-align: left; vertical-align: top; border-bottom: 1px solid #E2E8F0; border-right: 1px solid #E2E8F0; }\n        th:last-child, td:last-child { border-right: none; }\n        tr:last-child td { border-bottom: none; }\n\n        /* Cabeceras de columna */\n        th { background-color: #F1F5F9; font-weight: 800; font-size: 1.1rem; text-align: center; }\n        th.criterion-col { width: 20%; text-align: left; background-color: white; color: var(--primary); }\n        \n        /* Estilos de cabeceras de nivel */\n        .level-header { display: flex; flex-direction: column; align-items: center; gap: 5px; }\n        .level-header i { font-size: 1.5rem; margin-bottom: 5px; }\n        .level-4 th { border-top: 4px solid var(--nivel4-border); color: #047857; }\n        .level-3 th { border-top: 4px solid var(--nivel3-border); color: #B45309; }\n        .level-2 th { border-top: 4px solid var(--nivel2-border); color: #C2410C; }\n        .level-1 th { border-top: 4px solid var(--nivel1-border); color: #B91C1C; }\n\n        /* Celdas de Criterio */\n        .criterion-title { font-weight: 800; font-size: 1.1rem; margin-bottom: 5px; display: flex; align-items: center; gap: 8px; }\n        .criterion-desc { font-size: 0.85rem; color: var(--text-muted); }\n\n        /* Celdas interactivas (descriptores) */\n        .descriptor-cell { cursor: pointer; transition: all 0.2s ease; border-radius: 8px; margin: 2px; }\n        .descriptor-cell:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }\n        \n        /* Estados seleccionados */\n        .selected-4 { background-color: var(--nivel4-bg) !important; border: 2px solid var(--nivel4-border) !important; color: #064E3B; font-weight: 600; }\n        .selected-3 { background-color: var(--nivel3-bg) !important; border: 2px solid var(--nivel3-border) !important; color: #78350F; font-weight: 600; }\n        .selected-2 { background-color: var(--nivel2-bg) !important; border: 2px solid var(--nivel2-border) !important; color: #7C2D12; font-weight: 600; }\n        .selected-1 { background-color: var(--nivel1-bg) !important; border: 2px solid var(--nivel1-border) !important; color: #7F1D1D; font-weight: 600; }\n\n        /* Contenido del descriptor */\n        .desc-content { font-size: 0.95rem; }\n\n        /* Botones */\n        .actions { text-align: center; margin-top: 30px; }\n        .btn { background: var(--text-muted); color: white; border: none; padding: 12px 24px; border-radius: 12px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background 0.3s; font-family: inherit; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 6px rgba(100, 116, 139, 0.3); }\n        .btn:hover { background: #475569; }\n    &lt;/style&gt;\n&lt;div class=\"container\"&gt;&lt;header&gt;\n&lt;h1&gt;Rúbrica de Evaluación del Proyecto&lt;/h1&gt;\n&lt;p class=\"subtitle\"&gt;&lt;i class=\"fa-solid fa-utensils\"&gt;&lt;/i&gt; Situación de Aprendizaje: Nuestro Restaurante Sostenible&lt;/p&gt;\n&lt;div class=\"student-info\"&gt;\n&lt;div class=\"input-group\"&gt;&lt;label for=\"nombre\"&gt;Nombre del Alumno/a:&lt;/label&gt; &lt;input type=\"text\" id=\"nombre\" placeholder=\"Escribe el nombre...\" /&gt;&lt;/div&gt;\n&lt;div class=\"input-group\"&gt;&lt;label for=\"fecha\"&gt;Fecha de Evaluación:&lt;/label&gt; &lt;input type=\"date\" id=\"fecha\" /&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/header&gt;\n&lt;table class=\"rubric-table\"&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th class=\"criterion-col\"&gt;Criterio / Indicador&lt;/th&gt;\n&lt;th style=\"border-top: 4px solid var(--nivel4-border); color: #047857;\"&gt;\n&lt;div class=\"level-header\"&gt;&lt;i class=\"fa-solid fa-star\"&gt;&lt;/i&gt; Nivel 4: Excelente&lt;/div&gt;\n&lt;/th&gt;\n&lt;th style=\"border-top: 4px solid var(--nivel3-border); color: #b45309;\"&gt;\n&lt;div class=\"level-header\"&gt;&lt;i class=\"fa-solid fa-check\"&gt;&lt;/i&gt; Nivel 3: Conseguido&lt;/div&gt;\n&lt;/th&gt;\n&lt;th style=\"border-top: 4px solid var(--nivel2-border); color: #c2410c;\"&gt;\n&lt;div class=\"level-header\"&gt;&lt;i class=\"fa-solid fa-spinner\"&gt;&lt;/i&gt; Nivel 2: En Proceso&lt;/div&gt;\n&lt;/th&gt;\n&lt;th style=\"border-top: 4px solid var(--nivel1-border); color: #b91c1c;\"&gt;\n&lt;div class=\"level-header\"&gt;&lt;i class=\"fa-solid fa-hand-holding-hand\"&gt;&lt;/i&gt; Nivel 1: Necesita Apoyo&lt;/div&gt;\n&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;&lt;!-- Fila 1 --&gt;\n&lt;tr data-row=\"1\"&gt;\n&lt;td&gt;\n&lt;div class=\"criterion-title\"&gt;&lt;i class=\"fa-solid fa-chart-pie\"&gt;&lt;/i&gt; Representación Matemática&lt;/div&gt;\n&lt;div class=\"criterion-desc\"&gt;Criterio 4.1. (Fracciones y modelización).&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 1, 4)\"&gt;\n&lt;div class=\"desc-content\"&gt;Modeliza y representa las fracciones en el menú de forma totalmente precisa, usando las herramientas de Canva o el material manipulativo sin dificultad.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 1, 3)\"&gt;\n&lt;div class=\"desc-content\"&gt;Representa las fracciones correctamente en su mayoría, necesitando ayuda puntual con la herramienta digital o analógica.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 1, 2)\"&gt;\n&lt;div class=\"desc-content\"&gt;Logra representar algunas fracciones básicas, pero requiere guía constante de la docente o del \"Ayudante TIC\".&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 1, 1)\"&gt;\n&lt;div class=\"desc-content\"&gt;Aún le cuesta representar el concepto de fracción y requiere el uso exclusivo de apoyos visuales y material físico de forma dirigida.&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;!-- Fila 2 --&gt;\n&lt;tr data-row=\"2\"&gt;\n&lt;td&gt;\n&lt;div class=\"criterion-title\"&gt;&lt;i class=\"fa-solid fa-leaf\"&gt;&lt;/i&gt; Resolución de Problemas&lt;/div&gt;\n&lt;div class=\"criterion-desc\"&gt;Criterio 1.1. (Gestión Zero Waste).&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 2, 4)\"&gt;\n&lt;div class=\"desc-content\"&gt;Comprende el cálculo de costes para evitar desperdicios y completa la plantilla de cálculo con total autonomía.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 2, 3)\"&gt;\n&lt;div class=\"desc-content\"&gt;Comprende el problema de costes y usa la calculadora o plantilla con éxito, aunque necesita alguna aclaración.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 2, 2)\"&gt;\n&lt;div class=\"desc-content\"&gt;Participa en la resolución del problema y cálculo de costes, pero se pierde en el proceso y requiere apoyo directo.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 2, 1)\"&gt;\n&lt;div class=\"desc-content\"&gt;Muestra dificultades para comprender el problema cotidiano y requiere adaptación significativa de la tarea.&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;!-- Fila 3 --&gt;\n&lt;tr data-row=\"3\"&gt;\n&lt;td&gt;\n&lt;div class=\"criterion-title\"&gt;&lt;i class=\"fa-solid fa-bullhorn\"&gt;&lt;/i&gt; Comunicación y Exposición&lt;/div&gt;\n&lt;div class=\"criterion-desc\"&gt;Criterio 8.1. (Pitch Final).&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 3, 4)\"&gt;\n&lt;div class=\"desc-content\"&gt;Expone el proyecto con claridad usando el soporte digital (PDI/Canva) o analógico, comunicando la información adecuadamente.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 3, 3)\"&gt;\n&lt;div class=\"desc-content\"&gt;Expone sus ideas de forma comprensible apoyándose en la presentación, aunque con algunas dudas.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 3, 2)\"&gt;\n&lt;div class=\"desc-content\"&gt;Participa en la exposición, pero depende de la lectura literal del guion o del apoyo continuo de sus compañeros.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 3, 1)\"&gt;\n&lt;div class=\"desc-content\"&gt;Muestra bloqueo o ansiedad significativa en la exposición, logrando participar solo mediante adaptaciones muy específicas.&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;!-- Fila 4 --&gt;\n&lt;tr data-row=\"4\"&gt;\n&lt;td&gt;\n&lt;div class=\"criterion-title\"&gt;&lt;i class=\"fa-solid fa-laptop-medical\"&gt;&lt;/i&gt; Autonomía Digital y Emocional&lt;/div&gt;\n&lt;div class=\"criterion-desc\"&gt;Competencia Transversal (Plan B analógico).&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 4, 4)\"&gt;\n&lt;div class=\"desc-content\"&gt;Maneja Canva y credenciales con tarjetas visuales de forma autónoma. Gestiona la espera positivamente.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 4, 3)\"&gt;\n&lt;div class=\"desc-content\"&gt;Accede a las herramientas con su tarjeta visual y mantiene la calma tras una breve intervención si hay fallos.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 4, 2)\"&gt;\n&lt;div class=\"desc-content\"&gt;Requiere ayuda frecuente para acceder y tiende a desregularse ante fallos técnicos, necesitando recurrir al Plan B.&lt;/div&gt;\n&lt;/td&gt;\n&lt;td class=\"descriptor-cell\" onclick=\"selectCell(this, 4, 1)\"&gt;\n&lt;div class=\"desc-content\"&gt;Depende totalmente del adulto para la gestión digital y muestra alto nivel de bloqueo que impide el avance sin apoyo.&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;div class=\"actions\"&gt;&lt;button class=\"btn\" onclick=\"resetRubric()\"&gt;&lt;i class=\"fa-solid fa-rotate-right\"&gt;&lt;/i&gt; Borrar Selección&lt;/button&gt;\n&lt;p style=\"font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;\"&gt;*Haz clic en las celdas para seleccionar el nivel de logro del alumno/a.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;\n&lt;script&gt;\n    // Función para manejar la selección de celdas\n    function selectCell(clickedCell, rowId, level) {\n        // Encontrar la fila correspondiente\n        const row = document.querySelector(`tr[data-row=\"${rowId}\"]`);\n        \n        // Quitar las clases de selección de todas las celdas descriptivas de esa fila\n        const cells = row.querySelectorAll('.descriptor-cell');\n        cells.forEach(cell =&gt; {\n            cell.classList.remove('selected-4', 'selected-3', 'selected-2', 'selected-1');\n            cell.style.border = 'none'; // resetear borde en linea si lo hubiera\n        });\n        \n        // Añadir la clase correspondiente al nivel seleccionado\n        clickedCell.classList.add(`selected-${level}`);\n    }\n\n    // Función para borrar toda la selección\n    function resetRubric() {\n        // Limpiar inputs\n        document.getElementById('nombre').value = '';\n        document.getElementById('fecha').value = '';\n        \n        // Limpiar celdas\n        const cells = document.querySelectorAll('.descriptor-cell');\n        cells.forEach(cell =&gt; {\n            cell.classList.remove('selected-4', 'selected-3', 'selected-2', 'selected-1');\n        });\n    }\n&lt;/script&gt;\n&lt;/p&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20260511102121CZJABT</odePageId><odeBlockId>20260511102121XTTHUA</odeBlockId><blockName>AUTOEVALUACIÓN</blockName><iconName/><odePagStructureOrder>2</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121CZJABT</odePageId><odeBlockId>20260511102121XTTHUA</odeBlockId><odeIdeviceId>202605091225366628TX</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;span style="font-family: 'comic sans ms', sans-serif; color: #843fa1;"&gt;Ha llegado el momento de hacer una pausa y pensar en todo lo que hemos aprendido cocinando números. En esta Diana de Evaluación no hay respuestas correctas ni incorrectas. Solo tienes que colorear cada porción según cómo te hayas sentido: trabajando en equipo, calculando las fracciones de nuestro menú y creando los diseños.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;span style="font-family: 'comic sans ms', sans-serif; color: #843fa1;"&gt;&lt;strong&gt;Cuanto más seguro/a te sientas en un apartado, ¡más cerca del centro deberás colorear! Sé sincero/a y recuerda que todos estamos aquí para aprender y mejorar.&lt;/strong&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;style&gt;
+        :root {
+            --primary: #4A90E2;
+            --bg-color: #F8FAFC;
+            --text-main: #334155;
+            --q1-color: #3B82F6; /* Tareas - Azul */
+            --q2-color: #8B5CF6; /* TIC - Morado */
+            --q3-color: #F59E0B; /* Equipo - Naranja */
+            --q4-color: #10B981; /* Emociones - Verde */
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Nunito', sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; padding: 20px; }
+        
+        .container { max-width: 1000px; margin: 0 auto; background: white; padding: 40px; border-radius: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        
+        /* Header */
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { font-size: 2.2rem; color: #1E293B; margin-bottom: 10px; font-weight: 800; }
+        .subtitle { font-size: 1.2rem; color: #64748B; margin-bottom: 20px; }
+        
+        .student-info { display: flex; justify-content: center; gap: 20px; margin-bottom: 30px; }
+        .input-group { display: flex; flex-direction: column; align-items: flex-start; }
+        .input-group label { font-weight: 700; font-size: 0.9rem; color: #475569; margin-bottom: 5px; }
+        .input-group input { padding: 10px 15px; border: 2px solid #E2E8F0; border-radius: 10px; font-family: inherit; font-size: 1rem; width: 250px; outline: none; transition: border-color 0.3s;}
+        .input-group input:focus { border-color: var(--primary); }
+
+        /* Contenedor principal Diana y Leyenda */
+        .interactive-area { display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: center; margin-bottom: 40px; }
+        
+        /* Diana SVG */
+        .diana-wrapper { position: relative; width: 400px; height: 400px; }
+        svg { width: 100%; height: 100%; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.05)); }
+        
+        .wedge { stroke: #CBD5E1; stroke-width: 2; transition: all 0.2s ease; cursor: pointer; fill: white; }
+        .wedge:hover { filter: brightness(0.95); }
+        
+        /* Ejes de la diana (Etiquetas) */
+        .axis-label { position: absolute; font-weight: 800; font-size: 1.1rem; text-align: center; background: white; padding: 5px 12px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 10; pointer-events: none;}
+        .label-top { top: -20px; left: 50%; transform: translateX(-50%); color: var(--q1-color); }
+        .label-right { top: 50%; right: -30px; transform: translateY(-50%); color: var(--q2-color); }
+        .label-bottom { bottom: -20px; left: 50%; transform: translateX(-50%); color: var(--q3-color); }
+        .label-left { top: 50%; left: -30px; transform: translateY(-50%); color: var(--q4-color); }
+
+        /* Leyenda */
+        .legend-card { background: #F8FAFC; padding: 25px; border-radius: 16px; flex: 1; min-width: 300px; border: 1px solid #E2E8F0; }
+        .legend-title { font-size: 1.2rem; margin-bottom: 15px; border-bottom: 2px solid #E2E8F0; padding-bottom: 10px; }
+        
+        .legend-item { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px; }
+        .icon-box { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: white; flex-shrink: 0; }
+        
+        .level-guide { margin-top: 30px; }
+        .level-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 0.95rem; }
+        .level-dot { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: white; font-size: 0.8rem; border: 1px solid #CBD5E1; }
+
+        /* Botones */
+        .actions { text-align: center; margin-top: 30px; }
+        .btn { background: var(--primary); color: white; border: none; padding: 12px 24px; border-radius: 12px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background 0.3s; font-family: inherit; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3); }
+        .btn:hover { background: #2563EB; }
+        .btn-reset { background: #64748B; box-shadow: 0 4px 6px rgba(100, 116, 139, 0.3); }
+        .btn-reset:hover { background: #475569; }
+    &lt;/style&gt;
+&lt;div class="container"&gt;&lt;header&gt;
+&lt;h1&gt;Mi Diana de Aprendizaje&lt;/h1&gt;
+&lt;p class="subtitle"&gt;&lt;i class="fa-solid fa-store"&gt;&lt;/i&gt; Proyecto: Nuestro Restaurante Sostenible&lt;/p&gt;
+&lt;div class="student-info"&gt;
+&lt;div class="input-group"&gt;&lt;label for="nombre"&gt;Nombre:&lt;/label&gt; &lt;input type="text" id="nombre" placeholder="Escribe tu nombre..."&gt;&lt;/div&gt;
+&lt;div class="input-group"&gt;&lt;label for="fecha"&gt;Fecha:&lt;/label&gt; &lt;input type="date" id="fecha"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+&lt;div class="interactive-area"&gt;
+&lt;div class="diana-wrapper"&gt;
+&lt;div class="axis-label label-top"&gt;&lt;i class="fa-solid fa-pizza-slice"&gt;&lt;/i&gt; Mis Tareas&lt;/div&gt;
+&lt;div class="axis-label label-right"&gt;&lt;i class="fa-solid fa-laptop"&gt;&lt;/i&gt; Tecnología&lt;/div&gt;
+&lt;div class="axis-label label-bottom"&gt;&lt;i class="fa-solid fa-users"&gt;&lt;/i&gt; Equipo&lt;/div&gt;
+&lt;div class="axis-label label-left"&gt;&lt;i class="fa-solid fa-face-smile"&gt;&lt;/i&gt; Emociones&lt;/div&gt;
+&lt;!-- SVG generado por JS --&gt; &lt;svg id="dianaSvg" viewBox="0 0 400 400"&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="legend-card"&gt;
+&lt;h3 class="legend-title"&gt;¿Qué estamos evaluando?&lt;/h3&gt;
+&lt;div class="legend-item"&gt;
+&lt;div class="icon-box" style="background: var(--q1-color);"&gt;&lt;i class="fa-solid fa-pizza-slice"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;1. Mis Tareas (Arriba)&lt;/strong&gt;&lt;br&gt;He ayudado a diseñar el menú y he colocado bien las fracciones matemáticas.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="legend-item"&gt;
+&lt;div class="icon-box" style="background: var(--q2-color);"&gt;&lt;i class="fa-solid fa-laptop"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;2. Tecnología (Derecha)&lt;/strong&gt;&lt;br&gt;He usado Canva de forma autónoma usando mis tarjetas de contraseña.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="legend-item"&gt;
+&lt;div class="icon-box" style="background: var(--q3-color);"&gt;&lt;i class="fa-solid fa-users"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;3. Trabajo en Equipo (Abajo)&lt;/strong&gt;&lt;br&gt;He participado con mi grupo y nos hemos ayudado mutuamente.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="legend-item"&gt;
+&lt;div class="icon-box" style="background: var(--q4-color);"&gt;&lt;i class="fa-solid fa-face-smile"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;4. Emociones (Izquierda)&lt;/strong&gt;&lt;br&gt;Me he mantenido tranquilo/a y he esperado si algo fallaba en el ordenador.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="level-guide"&gt;
+&lt;h3 class="legend-title" style="margin-bottom: 10px;"&gt;Niveles (Del centro hacia afuera):&lt;/h3&gt;
+&lt;div class="level-row"&gt;
+&lt;div class="level-dot" style="background: #ef4444;"&gt;1&lt;/div&gt;
+Necesito mucha ayuda (Centro).&lt;/div&gt;
+&lt;div class="level-row"&gt;
+&lt;div class="level-dot" style="background: #f97316;"&gt;2&lt;/div&gt;
+Lo intento, pero necesito guía.&lt;/div&gt;
+&lt;div class="level-row"&gt;
+&lt;div class="level-dot" style="background: #eab308;"&gt;3&lt;/div&gt;
+Lo hago bien, con poca ayuda.&lt;/div&gt;
+&lt;div class="level-row"&gt;
+&lt;div class="level-dot" style="background: #22c55e;"&gt;4&lt;/div&gt;
+¡Genial! Lo hago de forma autónoma.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="actions"&gt;&lt;button class="btn btn-reset" onclick="resetDiana()"&gt;&lt;i class="fa-solid fa-rotate-right"&gt;&lt;/i&gt; Borrar datos&lt;/button&gt;
+&lt;p style="font-size: 0.85rem; color: #64748b; margin-top: 10px;"&gt;*Haz clic en las secciones de la diana para colorear tu nivel de logro.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;script&gt;
+    // Generación de la Diana interactiva con SVG
+    const svg = document.getElementById('dianaSvg');
+    const cx = 200, cy = 200;
+    const radii = [40, 90, 140, 190]; // 4 niveles
+    
+    // Colores base para cada cuadrante (cuando se seleccionan)
+    // Q1: Arriba (Tareas/Math), Q2: Derecha (TIC), Q3: Abajo (Equipo), Q4: Izquierda (Emociones)
+    const quadrantColors = [
+        ['#DBEAFE', '#93C5FD', '#60A5FA', '#3B82F6'], // Azules
+        ['#EDE9FE', '#C4B5FD', '#A78BFA', '#8B5CF6'], // Morados
+        ['#FEF3C7', '#FDE047', '#FACC15', '#EAB308'], // Amarillos/Naranjas
+        ['#D1FAE5', '#6EE7B7', '#34D399', '#10B981']  // Verdes
+    ];
+
+    // Función para calcular coordenadas polares
+    function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
+      const angleInRadians = (angleInDegrees - 90) * Math.PI / 180.0;
+      return {
+        x: centerX + (radius * Math.cos(angleInRadians)),
+        y: centerY + (radius * Math.sin(angleInRadians))
+      };
+    }
+
+    // Función para dibujar un arco (gajo de la diana)
+    function describeArc(x, y, innerRadius, outerRadius, startAngle, endAngle){
+        const start = polarToCartesian(x, y, outerRadius, endAngle);
+        const end = polarToCartesian(x, y, outerRadius, startAngle);
+        const startInner = polarToCartesian(x, y, innerRadius, endAngle);
+        const endInner = polarToCartesian(x, y, innerRadius, startAngle);
+        const largeArcFlag = endAngle - startAngle &lt;= 180 ? "0" : "1";
+
+        return [
+            "M", start.x, start.y,
+            "A", outerRadius, outerRadius, 0, largeArcFlag, 0, end.x, end.y,
+            "L", endInner.x, endInner.y,
+            "A", innerRadius, innerRadius, 0, largeArcFlag, 1, startInner.x, startInner.y,
+            "Z"
+        ].join(" ");
+    }
+
+    // Cuadrantes girados 45 grados para hacer una "X" (para que los ejes cardinales queden en el medio de las porciones)
+    const quadrants = [
+        { start: -45, end: 45, id: 0 },   // Arriba
+        { start: 45, end: 135, id: 1 },   // Derecha
+        { start: 135, end: 225, id: 2 },  // Abajo
+        { start: 225, end: 315, id: 3 }   // Izquierda
+    ];
+
+    // Estado para guardar el nivel seleccionado en cada cuadrante (0 = nada)
+    let selectedLevels = { 0: 0, 1: 0, 2: 0, 3: 0 };
+    const allPaths = [];
+
+    // Generar SVG
+    quadrants.forEach((q) =&gt; {
+        // Generar desde fuera hacia adentro por superposición/click
+        radii.forEach((r, levelIndex) =&gt; {
+            const innerR = levelIndex === 0 ? 0 : radii[levelIndex - 1];
+            const outerR = r;
+            const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+            
+            path.setAttribute("d", describeArc(cx, cy, innerR, outerR, q.start, q.end));
+            path.setAttribute("class", "wedge");
+            path.setAttribute("data-quadrant", q.id);
+            path.setAttribute("data-level", levelIndex + 1);
+            
+            path.addEventListener('click', () =&gt; handleWedgeClick(q.id, levelIndex + 1));
+            
+            svg.appendChild(path);
+            allPaths.push(path);
+        });
+    });
+
+    // Dibujar líneas divisorias (la "X")
+    quadrants.forEach(q =&gt; {
+        const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        const pos = polarToCartesian(cx, cy, radii[3], q.end);
+        line.setAttribute("x1", cx);
+        line.setAttribute("y1", cy);
+        line.setAttribute("x2", pos.x);
+        line.setAttribute("y2", pos.y);
+        line.setAttribute("stroke", "#94A3B8");
+        line.setAttribute("stroke-width", "3");
+        svg.appendChild(line);
+    });
+
+    // Lógica al hacer clic: Rellena hasta el nivel clicado
+    function handleWedgeClick(quadrantId, level) {
+        selectedLevels[quadrantId] = level;
+        updateColors();
+    }
+
+    function updateColors() {
+        allPaths.forEach(path =&gt; {
+            const qId = parseInt(path.getAttribute("data-quadrant"));
+            const lId = parseInt(path.getAttribute("data-level"));
+            
+            // Si el nivel de esta porción es menor o igual al nivel seleccionado para este cuadrante, coloréalo
+            if (lId &lt;= selectedLevels[qId]) {
+                // Seleccionar color según el nivel (más intense cuanto mayor es el nivel)
+                path.style.fill = quadrantColors[qId][lId - 1];
+            } else {
+                path.style.fill = "white"; // Vacío
+            }
+        });
+    }
+
+    // Función para reiniciar
+    function resetDiana() {
+        selectedLevels = { 0: 0, 1: 0, 2: 0, 3: 0 };
+        document.getElementById('nombre').value = '';
+        document.getElementById('fecha').value = '';
+        updateColors();
+    }
+&lt;/script&gt;
+&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"202605091225366628TX","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;span style=\"font-family: 'comic sans ms', sans-serif; color: #843fa1;\"&gt;Ha llegado el momento de hacer una pausa y pensar en todo lo que hemos aprendido cocinando números. En esta Diana de Evaluación no hay respuestas correctas ni incorrectas. Solo tienes que colorear cada porción según cómo te hayas sentido: trabajando en equipo, calculando las fracciones de nuestro menú y creando los diseños.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;span style=\"font-family: 'comic sans ms', sans-serif; color: #843fa1;\"&gt;&lt;strong&gt;Cuanto más seguro/a te sientas en un apartado, ¡más cerca del centro deberás colorear! Sé sincero/a y recuerda que todos estamos aquí para aprender y mejorar.&lt;/strong&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;style&gt;\n        :root {\n            --primary: #4A90E2;\n            --bg-color: #F8FAFC;\n            --text-main: #334155;\n            --q1-color: #3B82F6; /* Tareas - Azul */\n            --q2-color: #8B5CF6; /* TIC - Morado */\n            --q3-color: #F59E0B; /* Equipo - Naranja */\n            --q4-color: #10B981; /* Emociones - Verde */\n        }\n\n        * { box-sizing: border-box; margin: 0; padding: 0; }\n        body { font-family: 'Nunito', sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; padding: 20px; }\n        \n        .container { max-width: 1000px; margin: 0 auto; background: white; padding: 40px; border-radius: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }\n        \n        /* Header */\n        header { text-align: center; margin-bottom: 30px; }\n        h1 { font-size: 2.2rem; color: #1E293B; margin-bottom: 10px; font-weight: 800; }\n        .subtitle { font-size: 1.2rem; color: #64748B; margin-bottom: 20px; }\n        \n        .student-info { display: flex; justify-content: center; gap: 20px; margin-bottom: 30px; }\n        .input-group { display: flex; flex-direction: column; align-items: flex-start; }\n        .input-group label { font-weight: 700; font-size: 0.9rem; color: #475569; margin-bottom: 5px; }\n        .input-group input { padding: 10px 15px; border: 2px solid #E2E8F0; border-radius: 10px; font-family: inherit; font-size: 1rem; width: 250px; outline: none; transition: border-color 0.3s;}\n        .input-group input:focus { border-color: var(--primary); }\n\n        /* Contenedor principal Diana y Leyenda */\n        .interactive-area { display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: center; margin-bottom: 40px; }\n        \n        /* Diana SVG */\n        .diana-wrapper { position: relative; width: 400px; height: 400px; }\n        svg { width: 100%; height: 100%; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.05)); }\n        \n        .wedge { stroke: #CBD5E1; stroke-width: 2; transition: all 0.2s ease; cursor: pointer; fill: white; }\n        .wedge:hover { filter: brightness(0.95); }\n        \n        /* Ejes de la diana (Etiquetas) */\n        .axis-label { position: absolute; font-weight: 800; font-size: 1.1rem; text-align: center; background: white; padding: 5px 12px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 10; pointer-events: none;}\n        .label-top { top: -20px; left: 50%; transform: translateX(-50%); color: var(--q1-color); }\n        .label-right { top: 50%; right: -30px; transform: translateY(-50%); color: var(--q2-color); }\n        .label-bottom { bottom: -20px; left: 50%; transform: translateX(-50%); color: var(--q3-color); }\n        .label-left { top: 50%; left: -30px; transform: translateY(-50%); color: var(--q4-color); }\n\n        /* Leyenda */\n        .legend-card { background: #F8FAFC; padding: 25px; border-radius: 16px; flex: 1; min-width: 300px; border: 1px solid #E2E8F0; }\n        .legend-title { font-size: 1.2rem; margin-bottom: 15px; border-bottom: 2px solid #E2E8F0; padding-bottom: 10px; }\n        \n        .legend-item { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px; }\n        .icon-box { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: white; flex-shrink: 0; }\n        \n        .level-guide { margin-top: 30px; }\n        .level-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 0.95rem; }\n        .level-dot { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: white; font-size: 0.8rem; border: 1px solid #CBD5E1; }\n\n        /* Botones */\n        .actions { text-align: center; margin-top: 30px; }\n        .btn { background: var(--primary); color: white; border: none; padding: 12px 24px; border-radius: 12px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background 0.3s; font-family: inherit; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3); }\n        .btn:hover { background: #2563EB; }\n        .btn-reset { background: #64748B; box-shadow: 0 4px 6px rgba(100, 116, 139, 0.3); }\n        .btn-reset:hover { background: #475569; }\n    &lt;/style&gt;\n&lt;div class=\"container\"&gt;&lt;header&gt;\n&lt;h1&gt;Mi Diana de Aprendizaje&lt;/h1&gt;\n&lt;p class=\"subtitle\"&gt;&lt;i class=\"fa-solid fa-store\"&gt;&lt;/i&gt; Proyecto: Nuestro Restaurante Sostenible&lt;/p&gt;\n&lt;div class=\"student-info\"&gt;\n&lt;div class=\"input-group\"&gt;&lt;label for=\"nombre\"&gt;Nombre:&lt;/label&gt; &lt;input type=\"text\" id=\"nombre\" placeholder=\"Escribe tu nombre...\" /&gt;&lt;/div&gt;\n&lt;div class=\"input-group\"&gt;&lt;label for=\"fecha\"&gt;Fecha:&lt;/label&gt; &lt;input type=\"date\" id=\"fecha\" /&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/header&gt;\n&lt;div class=\"interactive-area\"&gt;\n&lt;div class=\"diana-wrapper\"&gt;\n&lt;div class=\"axis-label label-top\"&gt;&lt;i class=\"fa-solid fa-pizza-slice\"&gt;&lt;/i&gt; Mis Tareas&lt;/div&gt;\n&lt;div class=\"axis-label label-right\"&gt;&lt;i class=\"fa-solid fa-laptop\"&gt;&lt;/i&gt; Tecnología&lt;/div&gt;\n&lt;div class=\"axis-label label-bottom\"&gt;&lt;i class=\"fa-solid fa-users\"&gt;&lt;/i&gt; Equipo&lt;/div&gt;\n&lt;div class=\"axis-label label-left\"&gt;&lt;i class=\"fa-solid fa-face-smile\"&gt;&lt;/i&gt; Emociones&lt;/div&gt;\n&lt;!-- SVG generado por JS --&gt; &lt;svg id=\"dianaSvg\" viewbox=\"0 0 400 400\"&gt;&lt;/svg&gt;&lt;/div&gt;\n&lt;div class=\"legend-card\"&gt;\n&lt;h3 class=\"legend-title\"&gt;¿Qué estamos evaluando?&lt;/h3&gt;\n&lt;div class=\"legend-item\"&gt;\n&lt;div class=\"icon-box\" style=\"background: var(--q1-color);\"&gt;&lt;i class=\"fa-solid fa-pizza-slice\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;1. Mis Tareas (Arriba)&lt;/strong&gt;&lt;br /&gt;He ayudado a diseñar el menú y he colocado bien las fracciones matemáticas.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"legend-item\"&gt;\n&lt;div class=\"icon-box\" style=\"background: var(--q2-color);\"&gt;&lt;i class=\"fa-solid fa-laptop\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;2. Tecnología (Derecha)&lt;/strong&gt;&lt;br /&gt;He usado Canva de forma autónoma usando mis tarjetas de contraseña.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"legend-item\"&gt;\n&lt;div class=\"icon-box\" style=\"background: var(--q3-color);\"&gt;&lt;i class=\"fa-solid fa-users\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;3. Trabajo en Equipo (Abajo)&lt;/strong&gt;&lt;br /&gt;He participado con mi grupo y nos hemos ayudado mutuamente.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"legend-item\"&gt;\n&lt;div class=\"icon-box\" style=\"background: var(--q4-color);\"&gt;&lt;i class=\"fa-solid fa-face-smile\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;4. Emociones (Izquierda)&lt;/strong&gt;&lt;br /&gt;Me he mantenido tranquilo/a y he esperado si algo fallaba en el ordenador.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"level-guide\"&gt;\n&lt;h3 class=\"legend-title\" style=\"margin-bottom: 10px;\"&gt;Niveles (Del centro hacia afuera):&lt;/h3&gt;\n&lt;div class=\"level-row\"&gt;\n&lt;div class=\"level-dot\" style=\"background: #ef4444;\"&gt;1&lt;/div&gt;\nNecesito mucha ayuda (Centro).&lt;/div&gt;\n&lt;div class=\"level-row\"&gt;\n&lt;div class=\"level-dot\" style=\"background: #f97316;\"&gt;2&lt;/div&gt;\nLo intento, pero necesito guía.&lt;/div&gt;\n&lt;div class=\"level-row\"&gt;\n&lt;div class=\"level-dot\" style=\"background: #eab308;\"&gt;3&lt;/div&gt;\nLo hago bien, con poca ayuda.&lt;/div&gt;\n&lt;div class=\"level-row\"&gt;\n&lt;div class=\"level-dot\" style=\"background: #22c55e;\"&gt;4&lt;/div&gt;\n¡Genial! Lo hago de forma autónoma.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"actions\"&gt;&lt;button class=\"btn btn-reset\" onclick=\"resetDiana()\"&gt;&lt;i class=\"fa-solid fa-rotate-right\"&gt;&lt;/i&gt; Borrar datos&lt;/button&gt;\n&lt;p style=\"font-size: 0.85rem; color: #64748b; margin-top: 10px;\"&gt;*Haz clic en las secciones de la diana para colorear tu nivel de logro.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;\n&lt;script&gt;\n    // Generación de la Diana interactiva con SVG\n    const svg = document.getElementById('dianaSvg');\n    const cx = 200, cy = 200;\n    const radii = [40, 90, 140, 190]; // 4 niveles\n    \n    // Colores base para cada cuadrante (cuando se seleccionan)\n    // Q1: Arriba (Tareas/Math), Q2: Derecha (TIC), Q3: Abajo (Equipo), Q4: Izquierda (Emociones)\n    const quadrantColors = [\n        ['#DBEAFE', '#93C5FD', '#60A5FA', '#3B82F6'], // Azules\n        ['#EDE9FE', '#C4B5FD', '#A78BFA', '#8B5CF6'], // Morados\n        ['#FEF3C7', '#FDE047', '#FACC15', '#EAB308'], // Amarillos/Naranjas\n        ['#D1FAE5', '#6EE7B7', '#34D399', '#10B981']  // Verdes\n    ];\n\n    // Función para calcular coordenadas polares\n    function polarToCartesian(centerX, centerY, radius, angleInDegrees) {\n      const angleInRadians = (angleInDegrees - 90) * Math.PI / 180.0;\n      return {\n        x: centerX + (radius * Math.cos(angleInRadians)),\n        y: centerY + (radius * Math.sin(angleInRadians))\n      };\n    }\n\n    // Función para dibujar un arco (gajo de la diana)\n    function describeArc(x, y, innerRadius, outerRadius, startAngle, endAngle){\n        const start = polarToCartesian(x, y, outerRadius, endAngle);\n        const end = polarToCartesian(x, y, outerRadius, startAngle);\n        const startInner = polarToCartesian(x, y, innerRadius, endAngle);\n        const endInner = polarToCartesian(x, y, innerRadius, startAngle);\n        const largeArcFlag = endAngle - startAngle &lt;= 180 ? \"0\" : \"1\";\n\n        return [\n            \"M\", start.x, start.y,\n            \"A\", outerRadius, outerRadius, 0, largeArcFlag, 0, end.x, end.y,\n            \"L\", endInner.x, endInner.y,\n            \"A\", innerRadius, innerRadius, 0, largeArcFlag, 1, startInner.x, startInner.y,\n            \"Z\"\n        ].join(\" \");\n    }\n\n    // Cuadrantes girados 45 grados para hacer una \"X\" (para que los ejes cardinales queden en el medio de las porciones)\n    const quadrants = [\n        { start: -45, end: 45, id: 0 },   // Arriba\n        { start: 45, end: 135, id: 1 },   // Derecha\n        { start: 135, end: 225, id: 2 },  // Abajo\n        { start: 225, end: 315, id: 3 }   // Izquierda\n    ];\n\n    // Estado para guardar el nivel seleccionado en cada cuadrante (0 = nada)\n    let selectedLevels = { 0: 0, 1: 0, 2: 0, 3: 0 };\n    const allPaths = [];\n\n    // Generar SVG\n    quadrants.forEach((q) =&gt; {\n        // Generar desde fuera hacia adentro por superposición/click\n        radii.forEach((r, levelIndex) =&gt; {\n            const innerR = levelIndex === 0 ? 0 : radii[levelIndex - 1];\n            const outerR = r;\n            const path = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n            \n            path.setAttribute(\"d\", describeArc(cx, cy, innerR, outerR, q.start, q.end));\n            path.setAttribute(\"class\", \"wedge\");\n            path.setAttribute(\"data-quadrant\", q.id);\n            path.setAttribute(\"data-level\", levelIndex + 1);\n            \n            path.addEventListener('click', () =&gt; handleWedgeClick(q.id, levelIndex + 1));\n            \n            svg.appendChild(path);\n            allPaths.push(path);\n        });\n    });\n\n    // Dibujar líneas divisorias (la \"X\")\n    quadrants.forEach(q =&gt; {\n        const line = document.createElementNS(\"http://www.w3.org/2000/svg\", \"line\");\n        const pos = polarToCartesian(cx, cy, radii[3], q.end);\n        line.setAttribute(\"x1\", cx);\n        line.setAttribute(\"y1\", cy);\n        line.setAttribute(\"x2\", pos.x);\n        line.setAttribute(\"y2\", pos.y);\n        line.setAttribute(\"stroke\", \"#94A3B8\");\n        line.setAttribute(\"stroke-width\", \"3\");\n        svg.appendChild(line);\n    });\n\n    // Lógica al hacer clic: Rellena hasta el nivel clicado\n    function handleWedgeClick(quadrantId, level) {\n        selectedLevels[quadrantId] = level;\n        updateColors();\n    }\n\n    function updateColors() {\n        allPaths.forEach(path =&gt; {\n            const qId = parseInt(path.getAttribute(\"data-quadrant\"));\n            const lId = parseInt(path.getAttribute(\"data-level\"));\n            \n            // Si el nivel de esta porción es menor o igual al nivel seleccionado para este cuadrante, coloréalo\n            if (lId &lt;= selectedLevels[qId]) {\n                // Seleccionar color según el nivel (más intense cuanto mayor es el nivel)\n                path.style.fill = quadrantColors[qId][lId - 1];\n            } else {\n                path.style.fill = \"white\"; // Vacío\n            }\n        });\n    }\n\n    // Función para reiniciar\n    function resetDiana() {\n        selectedLevels = { 0: 0, 1: 0, 2: 0, 3: 0 };\n        document.getElementById('nombre').value = '';\n        document.getElementById('fecha').value = '';\n        updateColors();\n    }\n&lt;/script&gt;\n&lt;/p&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260511102121BBMPFR</odePageId><odeParentPageId>20260511102121YLXMBC</odeParentPageId><pageName>CRÉDITOS</pageName><odeNavStructureOrder>7</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>CRÉDITOS</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260511102121BBMPFR</odePageId><odeBlockId>20260511102121QPLILP</odeBlockId><blockName>CRÉDITOS</blockName><iconName>icon_tool</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121BBMPFR</odePageId><odeBlockId>20260511102121QPLILP</odeBlockId><odeIdeviceId>20260510214157626VH6</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;!-- Estilos necesarios (Tailwind y FontAwesome) --&gt;
+&lt;p&gt;
+&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;!-- Contenedor principal adaptado para eXeLearning --&gt;
+&lt;div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 my-8 font-sans text-gray-800" style="line-height: 1.5;"&gt;&lt;!-- Encabezado --&gt;
+&lt;div class="bg-blue-600 px-6 py-8 text-center"&gt;
+&lt;h2 class="text-3xl font-bold text-white mb-2" style="margin: 0;"&gt;Créditos y Autoría&lt;/h2&gt;
+&lt;p class="text-blue-100 mt-2" style="margin: 0;"&gt;Información sobre este Recurso Educativo&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Contenido --&gt;
+&lt;div class="p-6 md:p-8 space-y-8"&gt;&lt;!-- Autoría --&gt;
+&lt;div class="flex items-start space-x-4 mb-6"&gt;
+&lt;div class="bg-blue-100 p-3 rounded-full text-blue-600 mt-1"&gt;&lt;i class="fas fa-user-edit text-xl"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;h3 class="text-xl font-semibold text-gray-900" style="margin: 0;"&gt;Autoría&lt;/h3&gt;
+&lt;p class="text-gray-600 mt-1 text-lg"&gt;Estela Maria Barba Parraga&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Descripción --&gt;
+&lt;div class="flex items-start space-x-4 mb-6"&gt;
+&lt;div class="bg-green-100 p-3 rounded-full text-green-600 mt-1"&gt;&lt;i class="fas fa-info-circle text-xl"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;h3 class="text-xl font-semibold text-gray-900" style="margin: 0;"&gt;Descripción&lt;/h3&gt;
+&lt;p class="text-gray-600 mt-1 leading-relaxed"&gt;&lt;strong&gt;Food Truck:&lt;/strong&gt; El alumnado se convierte en un emprendedor que debe convencer a un comité de inversores para financiar su Food Truck. Para ello, creará una presentación profesional en &lt;em&gt;Canva&lt;/em&gt; que debe incluir: el nombre y logo de la marca, un menú diseñado con porciones exactas (&lt;strong&gt;fracciones&lt;/strong&gt;), un cálculo de costes para evitar el desperdicio (&lt;strong&gt;Zero Waste&lt;/strong&gt;) y una reflexión final sobre su impacto social. El aprendizaje se centra en la aplicación práctica de las matemáticas para resolver problemas de la vida real.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Licencia --&gt;
+&lt;div class="flex items-start space-x-4 mb-6"&gt;
+&lt;div class="bg-purple-100 p-3 rounded-full text-purple-600 mt-1"&gt;&lt;i class="fab fa-creative-commons text-xl"&gt;&lt;/i&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;h3 class="text-xl font-semibold text-gray-900" style="margin: 0;"&gt;Licencia de Uso&lt;/h3&gt;
+&lt;div class="mt-2 flex items-center space-x-3 text-gray-600"&gt;
+&lt;div class="flex space-x-1 text-2xl text-gray-700"&gt;&lt;i class="fab fa-creative-commons"&gt;&lt;/i&gt; &lt;i class="fab fa-creative-commons-by"&gt;&lt;/i&gt; &lt;i class="fab fa-creative-commons-sa"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;p class="font-medium" style="margin: 0;"&gt;Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class="text-sm text-gray-500 mt-2"&gt;Eres libre de compartir y adaptar este material, siempre y cuando reconozcas la autoría y compartas tus contribuciones bajo la misma licencia.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Pie / Botón de descarga --&gt;
+&lt;div class="bg-gray-50 px-6 py-6 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between"&gt;
+&lt;div class="mb-4 sm:mb-0 text-center sm:text-left"&gt;
+&lt;p class="text-sm text-gray-500" style="margin: 0;"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- EL ENLACE DEL BOTÓN (href) DEBERÁS CAMBIARLO EN EXELEARNING AL SUBIR TU ARCHIVO --&gt; &lt;a href="SDA_Estela_Barba.elp" download="" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-150 ease-in-out shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" style="text-decoration: none;"&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260510214157626VH6","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;!-- Estilos necesarios (Tailwind y FontAwesome) --&gt;\n&lt;p&gt;\n&lt;script src=\"https://cdn.tailwindcss.com\"&gt;&lt;/script&gt;\n&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;!-- Contenedor principal adaptado para eXeLearning --&gt;\n&lt;div class=\"max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 my-8 font-sans text-gray-800\" style=\"line-height: 1.5;\"&gt;&lt;!-- Encabezado --&gt;\n&lt;div class=\"bg-blue-600 px-6 py-8 text-center\"&gt;\n&lt;h2 class=\"text-3xl font-bold text-white mb-2\" style=\"margin: 0;\"&gt;Créditos y Autoría&lt;/h2&gt;\n&lt;p class=\"text-blue-100 mt-2\" style=\"margin: 0;\"&gt;Información sobre este Recurso Educativo&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Contenido --&gt;\n&lt;div class=\"p-6 md:p-8 space-y-8\"&gt;&lt;!-- Autoría --&gt;\n&lt;div class=\"flex items-start space-x-4 mb-6\"&gt;\n&lt;div class=\"bg-blue-100 p-3 rounded-full text-blue-600 mt-1\"&gt;&lt;i class=\"fas fa-user-edit text-xl\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div&gt;\n&lt;h3 class=\"text-xl font-semibold text-gray-900\" style=\"margin: 0;\"&gt;Autoría&lt;/h3&gt;\n&lt;p class=\"text-gray-600 mt-1 text-lg\"&gt;Estela Maria Barba Parraga&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Descripción --&gt;\n&lt;div class=\"flex items-start space-x-4 mb-6\"&gt;\n&lt;div class=\"bg-green-100 p-3 rounded-full text-green-600 mt-1\"&gt;&lt;i class=\"fas fa-info-circle text-xl\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div&gt;\n&lt;h3 class=\"text-xl font-semibold text-gray-900\" style=\"margin: 0;\"&gt;Descripción&lt;/h3&gt;\n&lt;p class=\"text-gray-600 mt-1 leading-relaxed\"&gt;&lt;strong&gt;Food Truck:&lt;/strong&gt; El alumnado se convierte en un emprendedor que debe convencer a un comité de inversores para financiar su Food Truck. Para ello, creará una presentación profesional en &lt;em&gt;Canva&lt;/em&gt; que debe incluir: el nombre y logo de la marca, un menú diseñado con porciones exactas (&lt;strong&gt;fracciones&lt;/strong&gt;), un cálculo de costes para evitar el desperdicio (&lt;strong&gt;Zero Waste&lt;/strong&gt;) y una reflexión final sobre su impacto social. El aprendizaje se centra en la aplicación práctica de las matemáticas para resolver problemas de la vida real.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Licencia --&gt;\n&lt;div class=\"flex items-start space-x-4 mb-6\"&gt;\n&lt;div class=\"bg-purple-100 p-3 rounded-full text-purple-600 mt-1\"&gt;&lt;i class=\"fab fa-creative-commons text-xl\"&gt;&lt;/i&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div&gt;\n&lt;h3 class=\"text-xl font-semibold text-gray-900\" style=\"margin: 0;\"&gt;Licencia de Uso&lt;/h3&gt;\n&lt;div class=\"mt-2 flex items-center space-x-3 text-gray-600\"&gt;\n&lt;div class=\"flex space-x-1 text-2xl text-gray-700\"&gt;&lt;i class=\"fab fa-creative-commons\"&gt;&lt;/i&gt; &lt;i class=\"fab fa-creative-commons-by\"&gt;&lt;/i&gt; &lt;i class=\"fab fa-creative-commons-sa\"&gt;&lt;/i&gt;&lt;/div&gt;\n&lt;p class=\"font-medium\" style=\"margin: 0;\"&gt;Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)&lt;/p&gt;\n&lt;/div&gt;\n&lt;p class=\"text-sm text-gray-500 mt-2\"&gt;Eres libre de compartir y adaptar este material, siempre y cuando reconozcas la autoría y compartas tus contribuciones bajo la misma licencia.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Pie / Botón de descarga --&gt;\n&lt;div class=\"bg-gray-50 px-6 py-6 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between\"&gt;\n&lt;div class=\"mb-4 sm:mb-0 text-center sm:text-left\"&gt;\n&lt;p class=\"text-sm text-gray-500\" style=\"margin: 0;\"&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- EL ENLACE DEL BOTÓN (href) DEBERÁS CAMBIARLO EN EXELEARNING AL SUBIR TU ARCHIVO --&gt; &lt;a href=\"SDA_Estela_Barba.elp\" download=\"\" class=\"inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-150 ease-in-out shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500\" style=\"text-decoration: none;\"&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20260511102121BBMPFR</odePageId><odeBlockId>20260511102121TXCDJU</odeBlockId><blockName>Descargar el archivo fuente</blockName><iconName/><odePagStructureOrder>2</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260511102121BBMPFR</odePageId><odeBlockId>20260511102121TXCDJU</odeBlockId><odeIdeviceId>20260511121641165WZ0</odeIdeviceId><odeIdeviceTypeName>download-source-file</odeIdeviceTypeName><htmlView>&lt;div class="exe-download-package-instructions"&gt;&lt;table class="exe-table exe-package-info"&gt;&lt;caption&gt;Información general sobre este recurso educativo&lt;/caption&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;Título&lt;/th&gt;
+&lt;td&gt;Situación de aprendizaje "Food truck"&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Descripción&lt;/th&gt;
+&lt;td&gt;Situación de aprendizaje sobre fracciones para una ACS de 1º ESO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Autoría&lt;/th&gt;
+&lt;td&gt;Estela María Barba Párraga&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Licencia&lt;/th&gt;
+&lt;td&gt;creative commons: attribution - share alike 4.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style="text-align: center;"&gt;Este contenido fue creado con &lt;a href="http://exelearning.net/"&gt;eXeLearning&lt;/a&gt;, el editor libre y de fuente abierta diseñado para crear recursos educativos.&lt;/p&gt;&lt;/div&gt;&lt;p class="exe-download-package-link"&gt;&lt;a download="exe-package:elp-name" href="exe-package:elp" style="background-color:#107275;color:#ffffff;"&gt;Descargar el archivo .elpx&lt;/a&gt;&lt;/p&gt;</htmlView><jsonProperties/><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure></odeNavStructures></ode>
